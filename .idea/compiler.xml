@@ -16,8 +16,5 @@
         <module name="pyg_shop_web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="pyg_manager_service" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>

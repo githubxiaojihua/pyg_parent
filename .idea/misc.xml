@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_service" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_shop_web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../pyg_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_service/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_manager/pyg_manager_service/pom.xml" />
       </set>
     </option>
   </component>

@@ -1,0 +1,13 @@
+1、建立工程项目结构
+2、导入相关依赖
+3、配置好配置文件
+4、使用mybatis插件做好逆向工程，注意如果采用纯maven编译的话，需要将xml文件从src\main\java中拿到resources中
+   否则无法编译，也就找不到相关xml文件。
+5、创建service接口和实现类
+6、创建controller
+7、测试http://localhost:8082/pygmanagerWeb(这个项目的发布路径)/brand/findAll
+8、本项目使用tomcat服务器，而非tomcat插件来运行
+
+
+使用dubbo作为服务治理框架，zookeeper作为注册中心，pyg_manager_web远程调用pyg_manager_interface中发布的服务，
+实际上调用的是pgy_manager_service的实现类
