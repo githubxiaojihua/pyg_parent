@@ -11,3 +11,61 @@
 
 使用dubbo作为服务治理框架，zookeeper作为注册中心，pyg_manager_web远程调用pyg_manager_interface中发布的服务，
 实际上调用的是pgy_manager_service的实现类
+
+
+1、写了几个angularjs的demo页面，注意要在tomcat中运行。
+2、做了brand.html页面的开发，主要包括，列表展现、分页组件、增加、修改、按照条件查询等。
+3、分页，（参考第二天教程中的部分说明）
+   后端--采用了mybatis的PageHelper分页插件
+        1）在SqlMapConfig.xml配置插件
+        2）导入相关jar包
+        3）使用：
+                // 初始化mybatis分页组件，此组件已经在SqlMapConfig.xml中配置了
+                // 是一个监听器，也就是每次在查询mybatis的时候都会进行过滤分页
+                // 此句必须在查询操作之前
+                PageHelper.startPage(pageNum,pageSize);
+                //List={page[total,pagesie],list}
+                Page<TbBrand> page = (Page<TbBrand>)tbBrandMapper.selectByExample(new TbBrandExample());
+   前端--采用了angularjs的分页组件：tm-pagination
+        1）导入相关js
+           <!-- 分页组件js-->
+           <script src="../plugins/angularjs/pagination.js"></script>
+           <!-- 分页组件css-->
+           <link rel="stylesheet" href="../plugins/angularjs/pagination.css">
+        2)在angularjs中引入组件并配置相关方法
+            //定义模块，引入引入pagination分页模块
+        	var app = angular.module("pyg", ['pagination']);
+        	//定义控制器
+        	app.controller(
+        			"brandController",
+        			function($scope, $http) {
+
+                        //重新加载列表 数据
+                        $scope.reloadList = function() {
+                            //切换页码
+                            $scope.findPage($scope.paginationConf.currentPage,
+                                $scope.paginationConf.itemsPerPage);
+                        }
+                        //分页控件配置
+                        $scope.paginationConf = {
+                            currentPage : 1,
+                            totalItems : 10,
+                            itemsPerPage : 10,
+                            perPageOptions : [ 10, 20, 30, 40, 50 ],
+                            onChange : function() {
+                                $scope.reloadList();//重新加载
+                            }
+                        };
+                        //分页
+                        $scope.findPage = function(page, rows) {
+                            $http.get('../brand/findPage?page=' + page + '&rows='+ rows).success(function(data) {
+                                $scope.list = data.rows;
+                                $scope.paginationConf.totalItems = data.total;//更新总记录数
+                            });
+                        };
+
+
+        			})
+        3）在html中插入元素
+                    <!--数据列表/-->
+        			<tm-pagination conf="paginationConf"></tm-pagination>

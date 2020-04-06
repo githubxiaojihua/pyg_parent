@@ -18,7 +18,7 @@
 <body ng-app="myModule" ng-controller="eventController">
     x:<input type="text" ng-model="x"/>
     y:<input type="text" ng-model="y"/>
-    <!-- -->
+    <!-- 单击事件指令，在点击后触发controller中的方法-->
     <button ng-click="add()">计算</button>
     结果：{{z}}
 </body>

@@ -12,14 +12,17 @@
 <link rel="stylesheet"
 	href="../plugins/adminLTE/css/skins/_all-skins.min.css">
 <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../plugins/angularjs/pagination.css">
+
 <script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
 <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="../plugins/angularjs/angular.min.js"></script>
+<!-- 分页组件js-->
 <script src="../plugins/angularjs/pagination.js"></script>
+<!-- 分页组件css-->
+<link rel="stylesheet" href="../plugins/angularjs/pagination.css">
 <script type="text/javascript">
-	//定义模块
-	var app = angular.module("pyg", [ 'pagination' ]);
+	//定义模块，引入引入pagination分页模块
+	var app = angular.module("pyg", ['pagination']);
 	//定义控制器
 	app.controller(
 			"brandController",
@@ -27,88 +30,82 @@
 				//查询所有函数
 				$scope.findAll = function() {
 					//使用内置服务发送请求
+					// ../代表的是上级目录，由于现在是在admin目录下，因此回到根目录发请求
 					$http.get("../brand/findAll").success(function(data) {
 						$scope.list = data;
 					})
 
 				};
 
-				//重新加载列表 数据
-				$scope.reloadList = function() {
-					//切换页码
-					$scope.search($scope.paginationConf.currentPage,
-							$scope.paginationConf.itemsPerPage);
-				}
-				//分页控件配置
-				$scope.paginationConf = {
-					currentPage : 1,
-					totalItems : 10,
-					itemsPerPage : 10,
-					perPageOptions : [ 10, 20, 30, 40, 50 ],
-					onChange : function() {
-						$scope.reloadList();//重新加载
-					}
-				};
-				//分页
-				$scope.findPage = function(page, rows) {
-					$http.get('../brand/findPage?page=' + page + '&rows='+ rows).success(function(data) {
-						$scope.list = data.rows;
-						$scope.paginationConf.totalItems = data.total;//更新总记录数
+                //重新加载列表 数据
+                $scope.reloadList = function() {
+                    //切换页码
+                    $scope.search($scope.paginationConf.currentPage,
+                        $scope.paginationConf.itemsPerPage);
+                }
+                //分页控件配置
+                $scope.paginationConf = {
+                    currentPage : 1,
+                    totalItems : 10,
+                    itemsPerPage : 10,
+                    perPageOptions : [ 10, 20, 30, 40, 50 ],
+                    onChange : function() {
+                        $scope.reloadList();//重新加载
+                    }
+                };
+                //分页
+                $scope.findPage = function(page, rows) {
+                    $http.get('../brand/findPage?page=' + page + '&rows='+ rows).success(function(data) {
+                        $scope.list = data.rows;
+                        $scope.paginationConf.totalItems = data.total;//更新总记录数
+                    });
+                };
+
+                //添加函数
+                $scope.add = function(){
+
+                    //定义方法名
+                    var methodName = "add";
+                    //判断如果id存在,是修改
+                    if($scope.entity.id!=null){
+                        methodName="update";
+                    }
+                    //内置服务发送请求
+                    $http.post("../brand/"+methodName,$scope.entity).success(function(data){
+                        //判断
+                        if(data.success){
+                            //刷新
+                            $scope.reloadList();
+                        }else{
+                            alert(data.message);
+                        }
+                    })
+
+                };
+
+                // 查询根据id查询
+                $scope.findOne = function(id){
+                    $http.get("../brand/findOne?id=" + id).success(function(response){
+                        $scope.entity = response;
 					});
 				};
-				
-				//添加函数
-				$scope.add = function(){
-					
-					//定义方法名
-					var methodName = "add";
-					//判断如果id存在,是修改
-					if($scope.entity.id!=null){
-						methodName="update";
-					}					
-					//内置服务发送请求
-					$http.post("../brand/"+methodName,$scope.entity).success(function(data){
-						//判断
-						if(data.success){
-							//刷新
-							$scope.reloadList();
-						}else{
-							alert(data.message);
-						}
-					})
-					
-				};
-				
-				//根据id查询品牌
-				$scope.findOne = function(id){
-					//发送请求
-					$http.get("../brand/findOne?id="+id).success(
-						function(data){
-							$scope.entity = data;
-						}		
-					)
-				}
-				
-				//初始化对象
+
+                // 定义查询对象
 				$scope.searchEntity = {};
-				
-				//条件查询方法
-				$scope.search = function(page,rows){
-					
-					//发送条件查询请求
-					$http.post("../brand/search?page="+page+"&rows="+rows,$scope.searchEntity).success(
-						function(data){
-							$scope.list = data.rows;
-							$scope.paginationConf.totalItems = data.total;//更新总记录数
-						}		
-					)
-					
-				}
-				
+
+				$scope.search = function(page, rows){
+				    $http.post("../brand/search?page=" + page + "&rows=" + rows,$scope.searchEntity).success(function(response){
+                        // 更新总记录数
+				        $scope.paginationConf.totalItems = response.total;
+				        // 更新列表
+				        $scope.list = response.rows;
+					});
+				};
 
 			})
 </script>
 </head>
+<!-- 使用分页插件后就不需要ng-init="findAll()"了因为分页组件会自动发请求，页面加载的时候-->
 <body ng-app="pyg" ng-controller="brandController"
 	class="hold-transition skin-red sidebar-mini">
 	<!-- .box-body -->
@@ -173,13 +170,11 @@
 					</tr>
 				</tbody>
 			</table>
+
 			<!--数据列表/-->
 			<tm-pagination conf="paginationConf"></tm-pagination>
-
 		</div>
 		<!-- 数据表格 /-->
-
-
 
 
 	</div>
