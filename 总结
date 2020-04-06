@@ -69,3 +69,8 @@
         3）在html中插入元素
                     <!--数据列表/-->
         			<tm-pagination conf="paginationConf"></tm-pagination>
+
+注意，在新建品牌的时候，ng-click事件已经对entity进行了初始化，因此，页面元素可以通过ng-model双向绑定对其进行赋值
+<!-- 注意在这里ng-click进行了entity对象的初始化-->
+<button type="button" class="btn btn-default" title="新建"
+data-toggle="modal" ng-click="entity={}" data-target="#editModal">
