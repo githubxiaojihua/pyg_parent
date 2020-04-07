@@ -102,6 +102,31 @@
 					});
 				};
 
+				// 定义用于存放选中ID的集合
+				$scope.selectIds = [];
+				// 定义更新ids的方法
+				$scope.updateSelection = function ($event,id) {
+				    // 选中则是增加
+					if($event.target.checked){
+						$scope.selectIds.push(id);
+					}else{
+					    // 取消选择是删除
+						var idx = $scope.selectIds.indexOf(id);
+						$scope.selectIds.splice(idx,1);// 删除
+					}
+                };
+
+				// 批量删除
+                $scope.dele = function(){
+				    $http.get("../brand/delete?ids=" + $scope.selectIds).success(function(response){
+				        if(response.success){
+                            $scope.reloadList();
+						}else{
+				            alert(response.message);
+						}
+					});
+				}
+
 			})
 </script>
 </head>
@@ -128,7 +153,7 @@
 							data-toggle="modal" ng-click="entity={}" data-target="#editModal">
 							<i class="fa fa-file-o"></i> 新建
 						</button>
-						<button type="button" class="btn btn-default" title="删除">
+						<button type="button" class="btn btn-default" title="删除" ng-click="dele()">
 							<i class="fa fa-trash-o"></i> 删除
 						</button>
 						<button type="button" class="btn btn-default" title="刷新"
@@ -161,7 +186,7 @@
 				</thead>
 				<tbody>
 					<tr ng-repeat="entity in list">
-						<td><input type="checkbox"></td>
+						<td><input type="checkbox" ng-click="updateSelection($event,entity.id)"></td>
 						<td>{{entity.id}}</td>
 						<td>{{entity.name}}</td>
 						<td>{{entity.firstChar}}</td>

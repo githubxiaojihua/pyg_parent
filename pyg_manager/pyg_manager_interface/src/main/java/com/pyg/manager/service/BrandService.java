@@ -47,4 +47,6 @@ public interface BrandService {
      * @return
      */
     PageResult<TbBrand> findPage(TbBrand tbBrand,int pageNum,int pageSize);
+
+    void delete(Long[] ids);
 }

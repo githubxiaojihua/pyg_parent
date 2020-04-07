@@ -86,4 +86,15 @@ public class BrandServiceImpl implements BrandService {
         Page<TbBrand> page = (Page<TbBrand>)tbBrandMapper.selectByExample(tbBrandExample);
         return new PageResult<>(page.getTotal(),page.getResult());
     }
+
+    /**
+     * 根据ids删除品牌
+     * @param ids
+     */
+    @Override
+    public void delete(Long[] ids) {
+        for(Long id : ids){
+            tbBrandMapper.deleteByPrimaryKey(id);
+        }
+    }
 }

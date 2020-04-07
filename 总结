@@ -14,7 +14,7 @@
 
 
 1、写了几个angularjs的demo页面，注意要在tomcat中运行。
-2、做了brand.html页面的开发，主要包括，列表展现、分页组件、增加、修改、按照条件查询等。
+2、做了brand.html页面的开发，主要包括，列表展现、分页组件、增加、修改、删除、按照条件查询等。
 3、分页，（参考第二天教程中的部分说明）
    后端--采用了mybatis的PageHelper分页插件
         1）在SqlMapConfig.xml配置插件
@@ -74,3 +74,5 @@
 <!-- 注意在这里ng-click进行了entity对象的初始化-->
 <button type="button" class="btn btn-default" title="新建"
 data-toggle="modal" ng-click="entity={}" data-target="#editModal">
+
+运营商后台的页面 login.html  (pygmanagerWeb)
