@@ -6,6 +6,10 @@ import java.util.List;
 import com.pyg.pojo.TbSpecification;
 import com.pyg.pojo.TbSpecificationOption;
 
+/**
+ * 用于新增规格以及规格属性的包装类
+ * 同时包含规格，以及规格属性列表
+ */
 public class Specification implements Serializable{
 	
 	/**

@@ -78,7 +78,7 @@ app.controller('specificationController' ,function($scope,$controller   ,specifi
 	};
 	
 	// [{},{},{}]
-	
+	// 通过双向绑定来实现增加和删除行
 	//新增规格选项行
 	$scope.addTableRow = function(){
 		//添加一行
