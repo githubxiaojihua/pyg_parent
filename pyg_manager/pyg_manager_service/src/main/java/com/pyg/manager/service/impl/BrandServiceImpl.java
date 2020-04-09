@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 
 import java.util.List;
+import java.util.Map;
 
 @Service//使用dubbo发布为服务，需要配置注解扫描
 public class BrandServiceImpl implements BrandService {
@@ -96,5 +97,10 @@ public class BrandServiceImpl implements BrandService {
         for(Long id : ids){
             tbBrandMapper.deleteByPrimaryKey(id);
         }
+    }
+
+    @Override
+    public List<Map> selectOptionList() {
+        return tbBrandMapper.selectOptionList();
     }
 }

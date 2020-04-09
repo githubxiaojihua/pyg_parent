@@ -1,5 +1,6 @@
 package com.pyg.manager.service;
 import java.util.List;
+import java.util.Map;
 
 import com.pyg.pojo.TbSpecification;
 import com.pyg.utils.PageResult;
@@ -58,5 +59,8 @@ public interface SpecificationService {
 	 * @return
 	 */
 	public PageResult findPage(TbSpecification specification, int pageNum, int pageSize);
+
+	// 查询select2下拉列表的数据
+	List<Map> selectOptionList();
 	
 }

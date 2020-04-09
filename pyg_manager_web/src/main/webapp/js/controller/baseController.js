@@ -32,4 +32,17 @@ app.controller("baseController",function($scope){
             $scope.selectIds.splice(idx,1);// 删除
         }
     };
+
+    // 提取json数组字符串中的某个属性，并用逗号拼接  [{"text":"内存大小"},{"text":"颜色"}]
+    $scope.jsonToString = function(jsonString,key){
+        var jsonObj = JSON.parse(jsonString);
+        var value = "";
+        for(var i=0; i<jsonObj.length;i++){
+            if(i>0){
+                value += ",";
+            }
+            value += jsonObj[i][key];
+        }
+        return value;
+    }
 });

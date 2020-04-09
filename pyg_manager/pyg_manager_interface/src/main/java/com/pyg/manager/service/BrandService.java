@@ -4,6 +4,7 @@ import com.pyg.pojo.TbBrand;
 import com.pyg.utils.PageResult;
 
 import java.util.List;
+import java.util.Map;
 
 public interface BrandService {
     /**
@@ -49,4 +50,7 @@ public interface BrandService {
     PageResult<TbBrand> findPage(TbBrand tbBrand,int pageNum,int pageSize);
 
     void delete(Long[] ids);
+
+    // 查询多选下拉列表中的品牌列表 id,text
+    List<Map> selectOptionList();
 }

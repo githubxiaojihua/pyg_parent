@@ -1,5 +1,5 @@
- //控制层 
-app.controller('typeTemplateController' ,function($scope,$controller   ,typeTemplateService){	
+ //控制层 用到了多个service，注意页面也要引入相应的service js文件
+app.controller('typeTemplateController' ,function($scope,$controller,typeTemplateService,brandService,specificationService){
 	
 	$controller('baseController',{$scope:$scope});//继承
 	
@@ -26,7 +26,12 @@ app.controller('typeTemplateController' ,function($scope,$controller   ,typeTemp
 	$scope.findOne=function(id){				
 		typeTemplateService.findOne(id).success(
 			function(response){
-				$scope.entity= response;					
+				$scope.entity= response;
+				// 从数据库中查询出来的是字符串，需要转换成json对象才能进行双向绑定，并显示。
+				$scope.entity.brandIds = JSON.parse($scope.entity.brandIds);
+				$scope.entity.specIds = JSON.parse($scope.entity.specIds);
+				$scope.entity.customAttributeItems = JSON.parse($scope.entity.customAttributeItems);
+
 			}
 		);				
 	}
@@ -83,6 +88,40 @@ app.controller('typeTemplateController' ,function($scope,$controller   ,typeTemp
 	//规格数据格式:
 	//[{"id":33,"text":"电视屏幕尺寸"}]
 	//扩展属性:
-	//[{"text":"内存大小"},{"text":"颜色"}]
-    
+	//
+
+
+
+
+	// 使用brandService方法实现查询
+	// 使用下面这一句模拟后端数据调用
+    //$scope.brandList = {data:[{id:1,text:"联想"},{id:2,text:"华为"},{id:3,text:"小米"}]};
+	$scope.brandList = {data:[]};
+	// 读取品牌列表
+	$scope.findBrandList = function(){
+		brandService.selectOptionList().success(function(response){
+			$scope.brandList = {data:response};
+		});
+	};
+	// 可以在这里调用，则加载的时候自动调用，也可以在页面元素上选择点击事件调用
+    $scope.findBrandList();
+
+    $scope.specList = {data:[]};
+    $scope.findSpecList = function(){
+        specificationService.selectOptionList().success(function(response){
+        	$scope.specList = {data:response};
+		});
+    };
+    $scope.findSpecList();
+
+    // 新增扩展属性行
+	$scope.addTableRow = function(){
+		$scope.entity.customAttributeItems.push({});
+	};
+
+	// 删除扩展属性行
+	$scope.deleTableRow = function(index){
+		$scope.entity.customAttributeItems.splice(index,1);
+	};
+
 });	

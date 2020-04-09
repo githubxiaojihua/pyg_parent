@@ -30,5 +30,10 @@ app.service("brandService",function($http){
     // 定义dele服务端
     this.dele = function(selectIds){
         return $http.get("../brand/delete?ids=" + selectIds);
+    };
+
+    // 定义查询品牌多选下拉框数据服务端
+    this.selectOptionList = function(){
+        return $http.get("../brand/selectOptionList");
     }
 });
