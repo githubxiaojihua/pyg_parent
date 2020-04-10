@@ -83,3 +83,11 @@ data-toggle="modal" ng-click="entity={}" data-target="#editModal">
 模板管理的相关功能，将提取json字符串中指定字段的方法进行了抽取，用于在模版管理页面显示正常数据，因为默认从数据库中
 得到的数据是json字符串
 select2多选下拉框的使用
+
+spring security简单入门demo，代码为springSecurityDemo
+在pyg_manager_web中集成springsecurity，本例与教程中不一样的地方是，在web.xml中使用springmvc容器直接加载了
+spring security的配置文件，而且教程中增加了sprig容器，用spring容器加载spring security。
+本例中配置了自定义的login界面，资源放行等可以看spring-security.xml文件
+在index.html中回显登陆人员的用户名，后台是通过使用springsecurity的SecurityContextHolder类进行获取
+配置完成以后登陆成功前访问任何页面都必须先到登录页面进行登录，登录后再能访问其他页面。
+

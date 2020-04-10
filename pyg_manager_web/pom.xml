@@ -71,7 +71,19 @@
             <version>2.5</version>
             <scope>provided</scope>
         </dependency>
-    </dependencies>
+
+        <!-- 增加spring security的 相关依赖-->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+            <version>4.1.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+            <version>4.1.0.RELEASE</version>
+        </dependency>
+   </dependencies>
     <build>
         <plugins>
             <!-- 配置Tomcat插件 -->
