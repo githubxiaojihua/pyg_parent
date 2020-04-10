@@ -17,6 +17,7 @@
     <ignored path="$PROJECT_DIR$/pyg_manager_web/target/" />
     <ignored path="$PROJECT_DIR$/pyg_pojo/target/" />
     <ignored path="$PROJECT_DIR$/pyg_shop_web/target/" />
+    <ignored path="$PROJECT_DIR$/../pyg_parent/springSecurityDemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,30 +30,8 @@
       <file leaf-file-name="type_template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/admin/type_template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="1320">
               <caret line="60" column="113" selection-start-line="60" selection-start-column="113" selection-end-line="60" selection-end-column="113" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="typeTemplateService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/js/service/typeTemplateService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbSpecification.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_pojo/src/main/java/com/pyg/pojo/TbSpecification.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -60,39 +39,8 @@
       <file leaf-file-name="baseController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/js/controller/baseController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="770">
               <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpecificationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="67" column="45" lean-forward="true" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
-              <folding>
-                <element signature="e#2495#2496#0" expanded="true" />
-                <element signature="e#2528#2529#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="specification.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/admin/specification.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="53" column="96" lean-forward="true" selection-start-line="53" selection-start-column="96" selection-end-line="53" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Specification.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_pojo/src/main/java/com/pyg/vo/Specification.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -100,8 +48,8 @@
       <file leaf-file-name="TypeTemplateController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/java/com/pyg/manager/controller/TypeTemplateController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
-              <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+            <state relative-caret-position="1694">
+              <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,24 +57,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbTypeTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_pojo/src/main/java/com/pyg/pojo/TbTypeTemplate.java">
+      <file leaf-file-name="TypeTemplateServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/TypeTemplateServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="199">
+              <caret line="96" column="53" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="typeTemplateController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/springSecurityDemo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="总结" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/springSecurityDemo/总结">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="44" selection-start-column="44" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="总结" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/总结">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/admin/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="412" column="36" lean-forward="true" selection-start-line="412" selection-start-column="36" selection-end-line="412" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="typeTemplateController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/js/controller/typeTemplateController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+            <state relative-caret-position="1386">
+              <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -159,6 +144,7 @@
       <find>specList</find>
       <find>specificationList</find>
       <find>findSpecList</find>
+      <find>iframe</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,9 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/C02angularjs-shuangxiangbangding.jsp" />
-        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/C02angularjs-controller.jsp" />
-        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/C03angularjs-controller.jsp" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/C04angularjs-module.jsp" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/C05angularjs-init.jsp" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/C06angularjs-event.jsp" />
@@ -203,21 +186,24 @@
         <option value="$PROJECT_DIR$/pyg_dao/src/main/java/com/pyg/mapper/TbSpecificationMapper.xml" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/specification.html" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/type_template.html" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/js/controller/baseController.js" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/BrandService.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_dao/src/main/java/com/pyg/mapper/TbBrandMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/BrandServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/java/com/pyg/manager/controller/BrandController.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/js/service/brandService.js" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_dao/src/main/java/com/pyg/mapper/TbBrandMapper.xml" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_dao/src/main/java/com/pyg/mapper/TbSpecificationMapper.xml" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_dao/src/main/java/com/pyg/mapper/TbSpecificationMapper.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SpecificationService.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SpecificationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationController.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/js/service/specificationService.js" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/js/controller/typeTemplateController.js" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/admin/type_template.html" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/baseController.js" />
+        <option value="$PROJECT_DIR$/pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/BrandService.java" />
+        <option value="$PROJECT_DIR$/pyg_dao/src/main/java/com/pyg/mapper/TbBrandMapper.java" />
+        <option value="$PROJECT_DIR$/pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pyg/manager/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/brandService.js" />
+        <option value="$PROJECT_DIR$/pyg_dao/src/main/java/com/pyg/mapper/TbBrandMapper.xml" />
+        <option value="$PROJECT_DIR$/pyg_dao/src/main/java/com/pyg/mapper/TbSpecificationMapper.xml" />
+        <option value="$PROJECT_DIR$/pyg_dao/src/main/java/com/pyg/mapper/TbSpecificationMapper.java" />
+        <option value="$PROJECT_DIR$/pyg_manager/pyg_manager_interface/src/main/java/com/pyg/manager/service/SpecificationService.java" />
+        <option value="$PROJECT_DIR$/pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/SpecificationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationController.java" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/specificationService.js" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/typeTemplateController.js" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/type_template.html" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springSecurityDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springSecurityDemo/总结" />
+        <option value="$PROJECT_DIR$/../pyg_parent/总结" />
       </list>
     </option>
   </component>
@@ -319,7 +305,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,206 +317,6 @@
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
               <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -544,23 +331,6 @@
               <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -579,105 +349,11 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="select2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -936,44 +612,46 @@
       <workItem from="1586254714203" duration="1631000" />
       <workItem from="1586310663711" duration="7405000" />
       <workItem from="1586331696573" duration="6337000" />
-      <workItem from="1586410771664" duration="9034000" />
+      <workItem from="1586410771664" duration="9301000" />
+      <workItem from="1586504457346" duration="58000" />
+      <workItem from="1586505678822" duration="1228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67440000" />
+    <option name="totallyTimeSpent" value="68993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.329429" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.329429" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Statistic" order="7" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Statistic" order="9" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37335286" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32796487" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32894737" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32796487" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32894737" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30893117" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.68421054" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.22520107" />
-      <window_info id="Web" order="2" sideWeight="0.501462" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6837482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.23123324" />
+      <window_info id="Web" order="6" sideWeight="0.501462" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -992,7 +670,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/java/com/pyg/manager/controller/TypeTemplateController.java</url>
+          <url>file://$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pyg/manager/controller/TypeTemplateController.java</url>
           <line>51</line>
           <properties />
           <option name="timeStamp" value="13" />
@@ -1002,27 +680,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/C04angularjs-module.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/C05angularjs-init.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/C06angularjs-event.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/C07angularjs-arrayloop.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1053,13 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1137,9 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1161,13 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1996">
           <caret line="99" column="65" lean-forward="true" selection-start-line="98" selection-start-column="12" selection-end-line="99" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/总结">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
@@ -1208,9 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1225,10 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
-          <folding>
-            <element signature="e#2940#2941#0" expanded="true" />
-            <element signature="e#2967#2968#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1264,9 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1274,10 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2430#2431#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1292,17 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
           <caret line="187" column="20" selection-start-line="187" selection-start-column="20" selection-end-line="187" selection-end-column="20" />
-          <folding>
-            <element signature="e#4972#4973#0" expanded="true" />
-            <element signature="e#4989#4990#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/TypeTemplateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="104" column="23" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1310,10 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1337,57 +948,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/java/com/pyg/manager/controller/SpecificationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="67" column="45" lean-forward="true" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
-          <folding>
-            <element signature="e#2495#2496#0" expanded="true" />
-            <element signature="e#2528#2529#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1122">
+          <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_pojo/src/main/java/com/pyg/vo/Specification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="176">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/admin/specification.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="53" column="96" lean-forward="true" selection-start-line="53" selection-start-column="96" selection-end-line="53" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/java/com/pyg/manager/controller/TypeTemplateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1166">
+          <caret line="53" column="96" selection-start-line="53" selection-start-column="96" selection-end-line="53" selection-end-column="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/js/controller/baseController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="770">
           <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/admin/type_template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="1320">
           <caret line="60" column="113" selection-start-line="60" selection-start-column="113" selection-end-line="60" selection-end-column="113" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/js/controller/typeTemplateController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+        <state relative-caret-position="1386">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/java/com/pyg/manager/controller/TypeTemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_service/src/main/java/com/pyg/manager/service/impl/TypeTemplateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="96" column="53" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springSecurityDemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springSecurityDemo/总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="412" column="36" lean-forward="true" selection-start-line="412" selection-start-column="36" selection-end-line="412" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>

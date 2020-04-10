@@ -14,6 +14,7 @@
         <module name="pyg_manager_web" />
         <module name="pyg_pojo" />
         <module name="pyg_shop_web" />
+        <module name="springSecurityDemo" />
       </profile>
     </annotationProcessing>
   </component>

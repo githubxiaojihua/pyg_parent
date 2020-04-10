@@ -77,3 +77,9 @@ data-toggle="modal" ng-click="entity={}" data-target="#editModal">
 
 运营商后台的页面 login.html  (pygmanagerWeb)
 
+
+前端angularjs分层以及服务抽取、控制层继承
+新增规格，通过angularjs的双向绑定来实现动态添加表格行和删除表格行
+模板管理的相关功能，将提取json字符串中指定字段的方法进行了抽取，用于在模版管理页面显示正常数据，因为默认从数据库中
+得到的数据是json字符串
+select2多选下拉框的使用

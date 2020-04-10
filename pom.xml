@@ -14,6 +14,7 @@
         <module>pyg_manager_web</module>
         <module>pyg_pojo</module>
         <module>pyg_shop_web</module>
+        <module>springSecurityDemo</module>
     </modules>
     <packaging>pom</packaging>
 
