@@ -110,5 +110,15 @@ public class SellerController {
 	public PageResult search(@RequestBody TbSeller seller, int page, int rows  ){
 		return sellerService.findPage(seller, page, rows);		
 	}
+
+	@RequestMapping("/updateStatus")
+	public PygResult update(String id,String status){
+		try{
+			sellerService.updateStatus(id,status);
+			return new PygResult(true,"操作成功");
+		}catch(Exception e){
+			return new PygResult(false,"操作失败");
+		}
+	}
 	
 }

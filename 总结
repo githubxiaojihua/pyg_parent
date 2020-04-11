@@ -91,3 +91,6 @@ spring security的配置文件，而且教程中增加了sprig容器，用spring
 在index.html中回显登陆人员的用户名，后台是通过使用springsecurity的SecurityContextHolder类进行获取
 配置完成以后登陆成功前访问任何页面都必须先到登录页面进行登录，登录后再能访问其他页面。
 
+
+商家审核需要在运营商后台进行审核sell_1.html
+
