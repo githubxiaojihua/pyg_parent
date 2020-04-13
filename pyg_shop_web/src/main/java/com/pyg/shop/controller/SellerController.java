@@ -3,6 +3,7 @@ import java.util.List;
 
 import com.pyg.utils.PageResult;
 import com.pyg.utils.PygResult;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -48,7 +49,11 @@ public class SellerController {
 	 */
 	@RequestMapping("/add")
 	public PygResult add(@RequestBody TbSeller seller){
-		try {
+		// 使用BCrypt进行密码加密
+		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+        String newPwd = encoder.encode(seller.getPassword());
+        seller.setPassword(newPwd);
+        try {
 			sellerService.add(seller);
 			return new PygResult(true, "增加成功");
 		} catch (Exception e) {

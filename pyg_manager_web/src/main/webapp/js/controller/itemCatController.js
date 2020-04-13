@@ -75,6 +75,12 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
 				$scope.paginationConf.totalItems=response.total;//更新总记录数
 			}			
 		);
+	};
+
+	$scope.findByParentId = function(parentId){
+		itemCatService.findByParentId(parentId).success(function(response){
+			$scope.list = response;
+		});
 	}
     
 });	

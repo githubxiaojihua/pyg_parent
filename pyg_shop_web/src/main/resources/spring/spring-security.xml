@@ -2,10 +2,12 @@
 <bean:beans xmlns="http://www.springframework.org/schema/security"
 xmlns:bean="http://www.springframework.org/schema/beans"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
 xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans.xsd
 http://www.springframework.org/schema/security
-http://www.springframework.org/schema/security/spring-security.xsd">
+http://www.springframework.org/schema/security/spring-security.xsd
+http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
 <!-- 在权限认证之前访问资源需要放行 -->
 <http pattern="/shoplogin.html" security="none"></http>
@@ -14,6 +16,7 @@ http://www.springframework.org/schema/security/spring-security.xsd">
 <http pattern="/js/**" security="none"></http>
 <http pattern="/img/**" security="none"></http>
 <http pattern="/plugins/**" security="none"></http>
+<http pattern="/register.html" security="none"></http>
 
 	<!-- http安全控制规则 -->
 	<http>
@@ -40,10 +43,21 @@ http://www.springframework.org/schema/security/spring-security.xsd">
 			<!--<user-service>
 				<user name="admin" password="admin" authorities="ROLE_USER"/>
 			</user-service>-->
+			<!-- 指定用于验证时的加密类，此类与在用户新增时候使用的加密类必须一致否则加密后的密码与存储时候的不一样
+				 导致验证失败
+			-->
+			<password-encoder ref="bCrypt"></password-encoder>
 		</authentication-provider>
 	</authentication-manager>
 
-	<bean:bean id="userDetailService" class="com.pyg.shop.service.UserDetailsServiceImpl"></bean:bean>
+	<dubbo:reference id="sellerService" interface="com.pyg.manager.service.SellerService"></dubbo:reference>
+
+	<bean:bean id="userDetailService" class="com.pyg.shop.service.UserDetailsServiceImpl">
+		<bean:property name="sellerService" ref="sellerService"></bean:property>
+	</bean:bean>
+
+	<bean:bean id="bCrypt" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"></bean:bean>
+
 
 
 </bean:beans>

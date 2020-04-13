@@ -41,6 +41,11 @@ app.controller("baseController",function($scope){
             if(i>0){
                 value += ",";
             }
+            // 注意此时动态获取json对象中的属性使用的类似于二维数组的语法
+            // 这里需要注意的是，如果key的值是静态不变的，那么可以使用jsonObj[i].key，这
+            // 代表寻找属性名为"key"的值，如果key是动态的则需要使用这种方法来获取值
+            // 跟使用for in遍历javascript对象一样（javaweb前端--03javascirpt--02Object.html）
+            // 中有举例说明
             value += jsonObj[i][key];
         }
         return value;

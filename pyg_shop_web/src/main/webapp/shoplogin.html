@@ -53,7 +53,9 @@
 									<span class="forget">忘记密码？</span>
 								</div>
 								<div class="logined">
-									<a class="sui-btn btn-block btn-xlarge btn-danger" href="javascript:void(0);" onclick="document:loginForm.submit()" target="_blank">登&nbsp;&nbsp;录</a>
+									<!-- 这里使用document:其实也没有作用，去掉也可以，这里应该是定义标签语法，类似于goto lable这种-->
+									<a class="sui-btn btn-block btn-xlarge btn-danger" href="javascript:;"
+									   onclick="document:loginForm.submit()">登&nbsp;&nbsp;录</a>
 								</div>
 							</form>
 							<div class="otherlogin">

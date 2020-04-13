@@ -90,7 +90,12 @@ spring security的配置文件，而且教程中增加了sprig容器，用spring
 本例中配置了自定义的login界面，资源放行等可以看spring-security.xml文件
 在index.html中回显登陆人员的用户名，后台是通过使用springsecurity的SecurityContextHolder类进行获取
 配置完成以后登陆成功前访问任何页面都必须先到登录页面进行登录，登录后再能访问其他页面。
+运营商的安全认证直接在spring-security.xml文件中将用户名和密码写死了
 
 
 商家审核需要在运营商后台进行审核sell_1.html
+
+商家系统的安全认证，自定义了认证类，先实现了固定密码登陆（任何用户名），后实现了从数据库中查询明文，再实现了
+注册加密，并且用密文认证的逻辑。 使用的加密类为BCryptPasswordEncoder
+
 
