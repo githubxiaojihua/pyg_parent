@@ -37,13 +37,14 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
 		if($scope.entity.id!=null){//如果有ID
 			serviceObject=itemCatService.update( $scope.entity ); //修改  
 		}else{
+			$scope.entity.parentId = $scope.parentId;
 			serviceObject=itemCatService.add( $scope.entity  );//增加 
 		}				
 		serviceObject.success(
 			function(response){
 				if(response.success){
 					//重新查询 
-		        	$scope.reloadList();//重新加载
+		        	$scope.findByParentId($scope.parentId);
 				}else{
 					alert(response.message);
 				}
@@ -77,10 +78,40 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
 		);
 	};
 
+    // 定义一个记录当前父节点的变量
+    $scope.parentId = 0;
+
 	$scope.findByParentId = function(parentId){
+		$scope.parentId = parentId;
 		itemCatService.findByParentId(parentId).success(function(response){
 			$scope.list = response;
 		});
-	}
+	};
+
+
+
+	// 实现分类面包屑来进行返回
+	$scope.grade = 1;// 默认级别为1
+	// 定义更改默认级别的方法
+	$scope.setGrade = function(value){
+		$scope.grade = value;
+	};
+	// 设置面包屑
+	$scope.selectList= function(pentity){
+		$scope.parentId = pentity.id;
+		if($scope.grade == 1){
+			$scope.entity_1 = null;
+			$scope.entity_2 = null;
+		}
+		if($scope.grade == 2){
+			$scope.entity_1 = pentity;
+			$scope.entity_2 = null;
+		}
+		if($scope.grade == 3){
+			$scope.entity_2 = pentity;
+
+        }
+        $scope.findByParentId(pentity.id);
+	};
     
 });	

@@ -1,17 +1,19 @@
-package com.pyg.manager.controller;
-import java.util.List;
+package com.pyg.shop.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.pyg.manager.service.GoodsService;
+import com.pyg.pojo.TbGoods;
+import com.pyg.utils.PageResult;
+import com.pyg.utils.PygResult;
 import com.pyg.vo.Goods;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.alibaba.dubbo.config.annotation.Reference;
-import com.pyg.pojo.TbGoods;
-import com.pyg.manager.service.GoodsService;
+import sun.plugin.liveconnect.SecurityContextHelper;
 
-import com.pyg.utils.PageResult;
-import com.pyg.utils.PygResult;
+import java.util.List;
+
 /**
  * controller
  * @author Administrator
@@ -42,7 +44,7 @@ public class GoodsController {
 	public PageResult  findPage(int page,int rows){			
 		return goodsService.findPage(page, rows);
 	}
-
+	
 	/**
 	 * 增加
 	 * @param goods
@@ -51,9 +53,9 @@ public class GoodsController {
 	@RequestMapping("/add")
 	public PygResult add(@RequestBody Goods goods){
 		// 从spring security中获得当前登录的用户
-		String name = SecurityContextHolder.getContext().getAuthentication().getName();
-		goods.getGoods().setSellerId(name);
-		try {
+        String name = SecurityContextHolder.getContext().getAuthentication().getName();
+        goods.getGoods().setSellerId(name);
+        try {
 			goodsService.add(goods);
 			return new PygResult(true, "增加成功");
 		} catch (Exception e) {
