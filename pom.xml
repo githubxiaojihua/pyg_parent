@@ -15,6 +15,7 @@
         <module>pyg_pojo</module>
         <module>pyg_shop_web</module>
         <module>springSecurityDemo</module>
+        <module>fastdfsDemo</module>
     </modules>
     <packaging>pom</packaging>
 

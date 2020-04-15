@@ -1,5 +1,5 @@
  //控制层 
-app.controller('goodsController' ,function($scope,$controller,goodsService,itemCatService){
+app.controller('goodsController' ,function($scope,$controller,goodsService,itemCatService,uploadService,typeTemplateService){
 	
 	$controller('baseController',{$scope:$scope});//继承
 	
@@ -105,6 +105,39 @@ app.controller('goodsController' ,function($scope,$controller,goodsService,itemC
 	$scope.$watch("entity.goods.category3Id",function(newValue,oldValue){
 		itemCatService.findOne(newValue).success(function(response){
 			$scope.entity.goods.typeTemplateId = response.typeId;
+		});
+	});
+
+	// 上传图片
+	$scope.uploadFile = function(){
+		uploadService.uploadFile().success(function(response){
+			if(response.success){
+                $scope.image_entity.url = response.message;
+			}else{
+				alert(response.message);
+			}
+
+		});
+	};
+
+	// 初始化保存对象
+	$scope.entity = {goods:{},goodsDesc:{itemImages:[]}};
+
+	// 添加图片列表，通过数据双向绑定回显
+	$scope.add_image_entity = function(){
+		$scope.entity.goodsDesc.itemImages.push($scope.image_entity);
+	};
+
+	// 删除图片
+	$scope.removeImageEntity = function(index){
+        $scope.entity.goodsDesc.itemImages.splice(index,1);
+	};
+
+	$scope.$watch("entity.goods.typeTemplateId",function(newValue,oldValue){
+		typeTemplateService.findOne(newValue).success(function(response){
+			$scope.typeTemplate=response;
+			// 将获取的json字符串转换成json对象
+			$scope.typeTemplate.brandIds=JSON.parse($scope.typeTemplate.brandIds);
 		});
 	});
     
