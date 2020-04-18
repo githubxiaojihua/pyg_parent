@@ -3,6 +3,7 @@ import java.util.List;
 import com.pyg.pojo.TbGoods;
 
 import com.pyg.utils.PageResult;
+import com.pyg.utils.PygResult;
 import com.pyg.vo.Goods;
 
 /**
@@ -29,13 +30,13 @@ public interface GoodsService {
 	/**
 	 * 增加
 	*/
-	public void add(Goods goods);
+	public PygResult add(Goods goods);
 	
 	
 	/**
 	 * 修改
 	 */
-	public void update(TbGoods goods);
+	public void update(Goods goods);
 	
 
 	/**
@@ -43,7 +44,7 @@ public interface GoodsService {
 	 * @param id
 	 * @return
 	 */
-	public TbGoods findOne(Long id);
+	public Goods findOne(Long id);
 	
 	
 	/**

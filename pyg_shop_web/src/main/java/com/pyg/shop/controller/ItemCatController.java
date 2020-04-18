@@ -38,4 +38,13 @@ public class ItemCatController {
 	public List<TbItemCat> findByParentId(Long id){
 		return itemCatService.findByParentId(id);
 	}
+
+	/**
+	 * 返回全部列表
+	 * @return
+	 */
+	@RequestMapping("/findAll")
+	public List<TbItemCat> findAll(){
+		return itemCatService.findAll();
+	}
 }

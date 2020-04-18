@@ -6,6 +6,7 @@ import com.pyg.pojo.TbItem;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Map;
 
 public class Goods implements Serializable {
     private static final long serialVersionUID = 1L;
@@ -14,7 +15,7 @@ public class Goods implements Serializable {
 
     private TbGoodsDesc goodsDesc;
 
-    private List<TbItem> tbItemList;
+    private List<TbItem> itemList;
 
     public TbGoods getGoods() {
         return goods;
@@ -32,11 +33,15 @@ public class Goods implements Serializable {
         this.goodsDesc = goodsDesc;
     }
 
-    public List<TbItem> getTbItemList() {
-        return tbItemList;
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
     }
 
-    public void setTbItemList(List<TbItem> tbItemList) {
-        this.tbItemList = tbItemList;
+    public List<TbItem> getItemList() {
+        return itemList;
+    }
+
+    public void setItemList(List<TbItem> itemList) {
+        this.itemList = itemList;
     }
 }

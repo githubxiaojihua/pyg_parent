@@ -28,7 +28,7 @@
 
 	<!-- 引用dubbo 服务 -->
 	<dubbo:application name="pyg-manager-service" />
-	<dubbo:registry address="zookeeper://192.168.107.130:2181"/>
+	<dubbo:registry address="zookeeper://192.168.25.132:2181"/>
 	<dubbo:annotation package="com.pyg.manager.controller" />  	
 
 </beans>
