@@ -68,7 +68,7 @@ public class GoodsController {
 	 * @return
 	 */
 	@RequestMapping("/update")
-	public PygResult update(@RequestBody TbGoods goods){
+	public PygResult update(@RequestBody Goods goods){
 		try {
 			goodsService.update(goods);
 			return new PygResult(true, "修改成功");
@@ -114,6 +114,17 @@ public class GoodsController {
 	@RequestMapping("/search")
 	public PageResult search(@RequestBody TbGoods goods, int page, int rows  ){
 		return goodsService.findPage(goods, page, rows);		
+	}
+
+	@RequestMapping("/updateStatusByIds")
+	public PygResult updateByIds(Long[] ids,String status){
+		try{
+			goodsService.updateStatusByIds(ids,status);
+			return new PygResult(true,"更新成功");
+		}catch(Exception e){
+			e.printStackTrace();
+			return new PygResult(false,"更新失败");
+		}
 	}
 	
 }

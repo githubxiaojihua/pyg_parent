@@ -17,6 +17,7 @@ import com.pyg.pojo.TbGoodsExample.Criteria;
 import com.pyg.manager.service.GoodsService;
 
 import com.pyg.utils.PageResult;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 服务实现层
@@ -63,14 +64,16 @@ public class GoodsServiceImpl implements GoodsService {
 	 * 增加
 	 */
 	@Override
+    @Transactional
 	public PygResult add(Goods goods) {
-        try {
+
             // 保存货品表数据
             // 获取货品对象
             TbGoods tbGoods = goods.getGoods();
             tbGoods.setAuditStatus("0");
             // 保存货品,返回主键
             goodsMapper.insertSelective(tbGoods);
+            int x = 1/0;
             // 再保存货品描述表
             // 获取货品描述对象
             TbGoodsDesc goodsDesc = goods.getGoodsDesc();
@@ -82,11 +85,7 @@ public class GoodsServiceImpl implements GoodsService {
             saveItemList(goods);
             return new PygResult(true, "保存成功");
 
-        } catch (Exception e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-            return new PygResult(false, "保存失败");
-        }
+
     }
 
 
@@ -225,8 +224,10 @@ public class GoodsServiceImpl implements GoodsService {
 	@Override
 	public void delete(Long[] ids) {
 		for(Long id:ids){
-			goodsMapper.deleteByPrimaryKey(id);
-		}		
+            TbGoods tbGoods = goodsMapper.selectByPrimaryKey(id);
+            tbGoods.setIsDelete("1");
+            goodsMapper.updateByPrimaryKeySelective(tbGoods);
+        }
 	}
 	
 	
@@ -236,7 +237,7 @@ public class GoodsServiceImpl implements GoodsService {
 		
 		TbGoodsExample example=new TbGoodsExample();
 		Criteria criteria = example.createCriteria();
-		
+		criteria.andIsDeleteIsNull();
 		if(goods!=null){			
 			if(goods.getSellerId()!=null && goods.getSellerId().length()>0){
 				//criteria.andSellerIdLike("%"+goods.getSellerId()+"%");
@@ -269,5 +270,14 @@ public class GoodsServiceImpl implements GoodsService {
 		Page<TbGoods> page= (Page<TbGoods>)goodsMapper.selectByExample(example);		
 		return new PageResult(page.getTotal(), page.getResult());
 	}
-	
+
+	@Override
+	public void updateStatusByIds(Long[] ids, String status) {
+		for(Long id : ids){
+            TbGoods tbGoods = goodsMapper.selectByPrimaryKey(id);
+            tbGoods.setAuditStatus(status);
+            goodsMapper.updateByPrimaryKeySelective(tbGoods);
+        }
+	}
+
 }

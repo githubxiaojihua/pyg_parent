@@ -55,13 +55,16 @@ public class GoodsController {
 		// 从spring security中获得当前登录的用户
         String name = SecurityContextHolder.getContext().getAuthentication().getName();
         goods.getGoods().setSellerId(name);
-        try {
-			goodsService.add(goods);
-			return new PygResult(true, "增加成功");
-		} catch (Exception e) {
+		PygResult pygResult = null;
+		try{
+			pygResult = goodsService.add(goods);
+		}catch(Exception e){
 			e.printStackTrace();
-			return new PygResult(false, "增加失败");
+			pygResult = new PygResult(false,"保存失败");
 		}
+
+		return pygResult;
+
 	}
 	
 	/**
