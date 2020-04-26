@@ -40,6 +40,7 @@ com\pyg\pojo\TbGoodsExample$GeneratedCriteria.class
 com\pyg\pojo\TbTypeTemplate.class
 com\pyg\pojo\TbItemExample.class
 com\pyg\pojo\TbSpecificationOptionExample$Criterion.class
+com\pyg\vo\Goods.class
 com\pyg\pojo\TbOrderItemExample$Criterion.class
 com\pyg\pojo\TbOrderItemExample$GeneratedCriteria.class
 com\pyg\pojo\TbItemCatExample$Criterion.class
@@ -47,6 +48,7 @@ com\pyg\pojo\TbUserExample.class
 com\pyg\pojo\TbCities.class
 com\pyg\pojo\TbAreasExample$GeneratedCriteria.class
 com\pyg\pojo\TbContentCategory.class
+com\pyg\vo\Specification.class
 com\pyg\pojo\TbOrderItem.class
 com\pyg\pojo\TbGoodsExample.class
 com\pyg\pojo\TbGoodsDescExample.class
