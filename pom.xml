@@ -19,6 +19,7 @@
         <module>pyg_content</module>
         <module>pyg_protal_web</module>
         <module>springdataredisDemo</module>
+        <module>springdatasolrDemo</module>
     </modules>
     <packaging>pom</packaging>
 

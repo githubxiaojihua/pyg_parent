@@ -19,6 +19,7 @@
         <module name="pyg_protal_web" />
         <module name="pyg_shop_web" />
         <module name="springdataredisDemo" />
+        <module name="springdatasolrDemo" />
         <module name="springSecurityDemo" />
       </profile>
     </annotationProcessing>
