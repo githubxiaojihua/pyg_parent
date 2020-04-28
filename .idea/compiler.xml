@@ -17,7 +17,11 @@
         <module name="pyg_manager_web" />
         <module name="pyg_pojo" />
         <module name="pyg_protal_web" />
+        <module name="pyg_search_interface" />
+        <module name="pyg_search_service" />
+        <module name="pyg_search_web" />
         <module name="pyg_shop_web" />
+        <module name="pyg_solr_util" />
         <module name="springdataredisDemo" />
         <module name="springdatasolrDemo" />
         <module name="springSecurityDemo" />

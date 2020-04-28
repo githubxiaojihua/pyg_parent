@@ -20,6 +20,9 @@
         <module>pyg_protal_web</module>
         <module>springdataredisDemo</module>
         <module>springdatasolrDemo</module>
+        <module>pyg_solr_util</module>
+        <module>pyg_search</module>
+        <module>pyg_search_web</module>
     </modules>
     <packaging>pom</packaging>
 
