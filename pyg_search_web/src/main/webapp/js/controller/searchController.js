@@ -56,6 +56,7 @@ app.controller('searchController', function($scope, $location, searchService) {
 		if(key=="category" || key=="brand" || key=="price"){
 			$scope.searchMap[key]="";
 		}else{
+			// delete 用于删除对象的某个属性
 			delete $scope.searchMap.spec[key];
 		}
 		//调用搜索方法

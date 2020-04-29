@@ -5,9 +5,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.solr.core.SolrTemplate;
-import org.springframework.data.solr.core.query.Criteria;
-import org.springframework.data.solr.core.query.Query;
-import org.springframework.data.solr.core.query.SimpleQuery;
+import org.springframework.data.solr.core.query.*;
+import org.springframework.data.solr.core.query.result.HighlightEntry;
+import org.springframework.data.solr.core.query.result.HighlightPage;
 import org.springframework.data.solr.core.query.result.ScoredPage;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -123,6 +123,38 @@ public class SpringDataSolrTest {
         Query query=new SimpleQuery("*:*");
         solrTemplate.delete(query);
         solrTemplate.commit();
+    }
+
+    @Test
+    public void testHighLight(){
+        SimpleHighlightQuery highlightQuery = new SimpleHighlightQuery();
+        Criteria criteria = new Criteria("item_title").contains("三星");
+        criteria = criteria.and("item_title").contains("黑色");
+        //criteria.contains("16");
+
+        highlightQuery.addCriteria(criteria);
+
+        // 设置高亮选项
+        HighlightOptions options = new HighlightOptions();
+        options.addField("item_title");
+        options.setSimplePrefix("<font color='red'>");
+        options.setSimplePostfix("</font>");
+        highlightQuery.setHighlightOptions(options);
+
+        HighlightPage<TbItem> tbItems = solrTemplate.queryForHighlightPage(highlightQuery, TbItem.class);
+        // 获取总记录数
+        long totalElements = tbItems.getTotalElements();
+        System.out.println("总记录数为：" + totalElements);
+        // 获取记录
+        List<TbItem> content = tbItems.getContent();
+
+        // 获取高亮
+        for(TbItem item : content){
+            List<HighlightEntry.Highlight> highlights = tbItems.getHighlights(item);
+            HighlightEntry.Highlight highlight = highlights.get(0);
+            List<String> snipplets = highlight.getSnipplets();
+            System.out.println(snipplets);
+        }
     }
 
     private void showList(List<TbItem> list){
