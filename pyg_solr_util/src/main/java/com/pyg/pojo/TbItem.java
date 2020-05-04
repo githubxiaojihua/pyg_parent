@@ -10,14 +10,14 @@ import java.util.Map;
 
 public class TbItem implements Serializable{
     /**
-	 * 
-	 */
-	private static final long serialVersionUID = -4730788370859047528L;
+     *
+     */
+    private static final long serialVersionUID = -4730788370859047528L;
 
-	@Field
-	private Long id;
+    @Field
+    private Long id;
 
-	@Field("item_title")
+    @Field("item_title")
     private String title;
 
     private String sellPoint;
@@ -40,6 +40,7 @@ public class TbItem implements Serializable{
 
     private Date createTime;
 
+    @Field("item_updatetime")
     private Date updateTime;
 
     private String itemSn;
@@ -68,12 +69,20 @@ public class TbItem implements Serializable{
     @Field("item_seller")
     private String seller;
 
+    public Long getId() {
+        return id;
+    }
+
     @Dynamic
     @Field("item_spec_*")
     private Map<String,String> specMap;
 
-    public Long getId() {
-        return id;
+    public Map<String, String> getSpecMap() {
+        return specMap;
+    }
+
+    public void setSpecMap(Map<String, String> specMap) {
+        this.specMap = specMap;
     }
 
     public void setId(Long id) {
@@ -254,13 +263,5 @@ public class TbItem implements Serializable{
 
     public void setSeller(String seller) {
         this.seller = seller == null ? null : seller.trim();
-    }
-
-    public Map<String, String> getSpecMap() {
-        return specMap;
-    }
-
-    public void setSpecMap(Map<String, String> specMap) {
-        this.specMap = specMap;
     }
 }

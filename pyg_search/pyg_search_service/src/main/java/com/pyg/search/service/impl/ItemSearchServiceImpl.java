@@ -4,6 +4,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.pyg.pojo.TbItem;
 import com.pyg.search.service.ItemSearchService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.solr.core.SolrTemplate;
 import org.springframework.data.solr.core.query.*;
 import org.springframework.data.solr.core.query.result.HighlightEntry;
@@ -118,6 +119,45 @@ public class ItemSearchServiceImpl implements ItemSearchService {
 
         }
 
+        // 7、设置排序
+        String sortField = (String) searchMap.get("sortField");
+        String sortValue = (String) searchMap.get("sort");
+        if(!StringUtils.isEmpty(sortField) && !StringUtils.isEmpty(sortValue)){
+            if("desc".equals(sortValue)){
+                Sort sort = new Sort(Sort.Direction.DESC,"item_"+sortField);
+                query.addSort(sort);
+            }else{
+                Sort sort = new Sort(Sort.Direction.ASC,"item_"+sortField);
+                query.addSort(sort);
+            }
+
+        }else{
+            Sort sort = new Sort(Sort.Direction.ASC,"item_price");
+            query.addSort(sort);
+        }
+
+        //8,分页查询
+        //获取分页值
+        //获取当前页
+        Integer pageNo = (Integer) searchMap.get("pageNo");
+        //获取每页显示条数
+        Integer pageSize = (Integer) searchMap.get("pageSize");
+
+        //判断当前页是否为空
+        if(pageNo==null){
+            pageNo=1;
+        }
+        //判断每页显示的条数是否为空
+        if(pageSize==null){
+            pageSize=30;
+        }
+
+        //计算查询起始页
+        Integer startNo = (pageNo-1)*pageSize;
+        //设置分页
+        query.setOffset(startNo);
+        query.setRows(pageSize);
+
         // 执行查询
         HighlightPage<TbItem> pageItems = template.queryForHighlightPage(query, TbItem.class);
         // 设置高亮值
@@ -130,6 +170,11 @@ public class ItemSearchServiceImpl implements ItemSearchService {
         }
         // 封装结果
         result.put("rows",pageItems.getContent());
+
+        //封装总页码
+        result.put("totalPages", pageItems.getTotalPages());
+        //封装总记录数
+        result.put("total", pageItems.getTotalElements());
         return result;
     }
 }

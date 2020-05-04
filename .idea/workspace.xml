@@ -37,18 +37,65 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ItemSearchServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemSearchServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/src/main/java/com/pyg/search/service/impl/ItemSearchServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="124" column="27" lean-forward="true" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="27" />
+            <state relative-caret-position="396">
+              <caret line="176" column="37" selection-start-line="176" selection-start-column="37" selection-end-line="176" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="313" column="30" selection-start-line="313" selection-start-column="30" selection-end-line="313" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/searchController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baseController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/baseController.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="contentController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/contentController.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="loginController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/loginController.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -64,8 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Goodsb</find>
-      <find>update</find>
       <find>add</find>
       <find>location</find>
       <find>返回</find>
@@ -94,6 +139,8 @@
       <find>搜索</find>
       <find>loadkeywords</find>
       <find>addFilterCondition</find>
+      <find>updateTime</find>
+      <find>sortSearch</find>
     </findStrings>
     <replaceStrings>
       <replace>new PygResult</replace>
@@ -108,13 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pyg_content/pyg_content_interface/src/main/java/com/pyg/content/service/ContentService.java" />
-        <option value="$PROJECT_DIR$/pyg_content/pyg_content_service/src/main/java/com/pyg/content/service/impl/ContentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pyg_protal_web/src/main/java/com/pyg/portal/controller/ContentController.java" />
-        <option value="$PROJECT_DIR$/pyg_protal_web/src/main/webapp/js/controller/contentController.js" />
-        <option value="$PROJECT_DIR$/pyg_protal_web/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/pyg_protal_web/src/main/webapp/js/service/contentService.js" />
-        <option value="$PROJECT_DIR$/pyg_protal_web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/pyg_protal_web/src/main/java/com/pyg/portal/controller/ContentController.java" />
         <option value="$PROJECT_DIR$/springdataredisDemo/src/main/resources/spring/applicationContext-redis.xml" />
         <option value="$PROJECT_DIR$/springdataredisDemo/src/main/resources/redis-config.properties" />
@@ -156,9 +196,16 @@
         <option value="$PROJECT_DIR$/pyg_pojo/src/main/java/com/pyg/pojo/TbItem.java" />
         <option value="$PROJECT_DIR$/pyg_pojo/pom.xml" />
         <option value="$PROJECT_DIR$/pyg_search/pom.xml" />
-        <option value="$PROJECT_DIR$/../pyg_parent/springdatasolrDemo/src/test/java/com/springdatasolr/test/SpringDataSolrTest.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/searchController.js" />
+        <option value="$PROJECT_DIR$/springdatasolrDemo/src/test/java/com/springdatasolr/test/SpringDataSolrTest.java" />
+        <option value="$PROJECT_DIR$/pyg_search_web/src/main/webapp/js/controller/searchController.js" />
+        <option value="$PROJECT_DIR$/pyg_search/pyg_search_service/src/main/java/com/pyg/search/service/impl/ItemSearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../pyg_parent/pyg_pojo/src/main/java/com/pyg/pojo/TbItem.java" />
+        <option value="$PROJECT_DIR$/../pyg_parent/pyg_solr_util/src/main/java/com/pyg/pojo/TbItem.java" />
+        <option value="$PROJECT_DIR$/../pyg_parent/pyg_solr_util/总结" />
+        <option value="$PROJECT_DIR$/../pyg_parent/pyg_solr_util/src/main/java/com/pyg/solrutil/SolrUtil.java" />
         <option value="$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/src/main/java/com/pyg/search/service/impl/ItemSearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/search.html" />
+        <option value="$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/searchController.js" />
       </list>
     </option>
   </component>
@@ -207,6 +254,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-25" />
     <option name="y" value="10" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
@@ -217,6 +265,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,23 +344,6 @@
               <item name="pyg_search_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -334,20 +368,121 @@
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_web" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg" type="462c0819:PsiDirectoryNode" />
+              <item name="solrutil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1095,8 +1230,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringDataSolrTest.testHighLight" />
         <item itemvalue="Application.SolrUtil" />
+        <item itemvalue="JUnit.SpringDataSolrTest.testHighLight" />
         <item itemvalue="JUnit.SpringDataSolrTest.testDeleteAll" />
         <item itemvalue="JUnit.SpringDataSolrTest.testPageQuery" />
         <item itemvalue="JUnit.SpringDataSolrTest.testAddList" />
@@ -1153,7 +1288,9 @@
       <workItem from="1587869217291" duration="2850000" />
       <workItem from="1587960873283" duration="5348000" />
       <workItem from="1588037531233" duration="11794000" />
-      <workItem from="1588130990561" duration="6950000" />
+      <workItem from="1588130990561" duration="8286000" />
+      <workItem from="1588218049327" duration="651000" />
+      <workItem from="1588549661042" duration="3536000" />
     </task>
     <servers />
   </component>
@@ -1190,7 +1327,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234635000" />
+    <option name="totallyTimeSpent" value="240158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1208,29 +1345,29 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.329429" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.35120642" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.35120642" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Statistic" order="8" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="15" visible="true" weight="0.36310396" />
+      <window_info anchor="bottom" id="Debug" order="15" weight="0.55051243" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.329429" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.38360175" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32894737" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.56222546" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.67203516" />
       <window_info anchor="bottom" id="Spring" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.56725144" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.20911528" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.56661785" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.22922252" />
       <window_info id="Web" order="6" sideWeight="0.501462" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1274,7 +1411,7 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/src/main/java/com/pyg/search/service/impl/ItemSearchServiceImpl.java</url>
+          <url>file://$PROJECT_DIR$/pyg_search/pyg_search_service/src/main/java/com/pyg/search/service/impl/ItemSearchServiceImpl.java</url>
           <line>19</line>
           <properties />
           <option name="timeStamp" value="48" />
@@ -1284,27 +1421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/springdatasolrDemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="21" selection-start-line="15" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_solr_util/src/main/java/com/pyg/pojo/TbItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="257" selection-start-line="257" selection-end-line="257" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1397,13 +1513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_solr_util/src/main/java/com/pyg/solrutil/SolrUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_common/src/main/resources/spring/applicationContext-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1467,11 +1576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_dao/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1500,19 +1604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_pojo/src/main/java/com/pyg/pojo/TbItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
@@ -1534,19 +1625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_shop_web/src/main/webapp/js/controller/sellerController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/springdatasolrDemo/src/main/java/com/springdatasolrdemo/pojo/TbItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="76" column="39" selection-start-line="74" selection-start-column="4" selection-end-line="76" selection-end-column="39" />
-          <folding>
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1451#1452#0" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-            <element signature="e#1548#1549#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1554,10 +1636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="358" column="9" selection-start-line="358" selection-start-column="9" selection-end-line="358" selection-end-column="9" />
-          <folding>
-            <element signature="e#1286#1287#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1582,35 +1660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/java/com/pyg/search/controller/ItemSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/springdatasolrDemo/src/test/java/com/springdatasolr/test/SpringDataSolrTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="155" column="42" lean-forward="true" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/css/webbase.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="37" column="22421" selection-start-line="37" selection-start-column="22421" selection-end-line="37" selection-end-column="22421" />
-          <folding>
-            <element signature="e#95134#99733#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1621,20 +1674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="156" column="50" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/searchController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/service/searchService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1642,13 +1681,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/src/main/java/com/pyg/search/service/impl/ItemSearchServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/java/com/pyg/search/controller/ItemSearchController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="124" column="27" lean-forward="true" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="27" />
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_pojo/src/main/java/com/pyg/pojo/TbItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="36" column="20" selection-end-line="266" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_solr_util/src/main/java/com/pyg/pojo/TbItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="266" column="1" selection-start-line="266" selection-start-column="1" selection-end-line="266" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_solr_util/总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springdatasolrDemo/src/test/java/com/springdatasolr/test/SpringDataSolrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="105" column="10" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/1.5.5.RELEASE/spring-data-solr-1.5.5.RELEASE.jar!/org/springframework/data/solr/core/query/Query.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_solr_util/src/main/java/com/pyg/solrutil/SolrUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/baseController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/contentController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/loginController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/src/main/java/com/pyg/search/service/impl/ItemSearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="176" column="37" selection-start-line="176" selection-start-column="37" selection-end-line="176" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="313" column="30" selection-start-line="313" selection-start-column="30" selection-end-line="313" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/searchController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>

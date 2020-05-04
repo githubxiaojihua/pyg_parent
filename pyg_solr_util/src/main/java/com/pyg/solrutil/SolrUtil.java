@@ -8,6 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.data.solr.core.SolrTemplate;
+import org.springframework.data.solr.core.query.Query;
+import org.springframework.data.solr.core.query.SimpleQuery;
+import org.springframework.data.solr.core.query.SolrDataQuery;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -23,6 +26,12 @@ public class SolrUtil {
     private SolrTemplate template;
 
     public void importItemData(){
+        // 删除所有数据
+        Query query = new SimpleQuery("*:*");
+        template.delete(query);
+        template.commit();
+        System.out.println("删除数据成功！");
+        // 重新导入
         TbItemExample example = new TbItemExample();
         TbItemExample.Criteria criteria = example.createCriteria();
         criteria.andStatusEqualTo("1");
