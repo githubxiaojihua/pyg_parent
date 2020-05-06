@@ -23,6 +23,9 @@
         <module>pyg_solr_util</module>
         <module>pyg_search</module>
         <module>pyg_search_web</module>
+        <module>springbootDemo</module>
+        <module>activemqDemo</module>
+        <module>springjms</module>
     </modules>
     <packaging>pom</packaging>
 

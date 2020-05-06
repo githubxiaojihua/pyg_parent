@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fastdfsDemo" />
+        <module name="jmsactivemqDemo" />
         <module name="pyg_common" />
         <module name="pyg_content_interface" />
         <module name="pyg_content_service" />
@@ -22,8 +23,11 @@
         <module name="pyg_search_web" />
         <module name="pyg_shop_web" />
         <module name="pyg_solr_util" />
+        <module name="springbootDemo" />
         <module name="springdataredisDemo" />
         <module name="springdatasolrDemo" />
+        <module name="springjms_consumer" />
+        <module name="springjms_producer" />
         <module name="springSecurityDemo" />
       </profile>
     </annotationProcessing>

@@ -30,6 +30,12 @@
     <ignored path="$PROJECT_DIR$/pyg_search/pyg_search_interface/target/" />
     <ignored path="$PROJECT_DIR$/pyg_search/pyg_search_service/target/" />
     <ignored path="$PROJECT_DIR$/pyg_search_web/target/" />
+    <ignored path="$PROJECT_DIR$/springbootDemo/target/" />
+    <ignored path="$PROJECT_DIR$/activemqDemo/target/" />
+    <ignored path="$PROJECT_DIR$/../pyg_parent/springjms_producer/target/" />
+    <ignored path="$PROJECT_DIR$/../pyg_parent/springjms/target/" />
+    <ignored path="$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/target/" />
+    <ignored path="$PROJECT_DIR$/../pyg_parent/springjms/springjms_producer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +59,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ItemSearchServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/src/main/java/com/pyg/search/service/impl/ItemSearchServiceImpl.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_producer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="28" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_producer/src/test/java/com/pyg/springjms/TestQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="176" column="37" selection-start-line="176" selection-start-column="37" selection-end-line="176" selection-end-column="37" />
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,37 +107,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/search.html">
+      <file leaf-file-name="总结" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/总结">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="313" column="30" selection-start-line="313" selection-start-column="30" selection-end-line="313" selection-end-column="30" />
+            <state relative-caret-position="22">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchController.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/searchController.js">
+      <file leaf-file-name="applicationContext-jms-consumer.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/src/main/resources/applicationContext-jms-consumer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="250">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baseController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/baseController.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="MyMessageListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/src/main/java/com/pyg/demo/MyMessageListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="contentController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/contentController.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="TestQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/src/test/java/com/pyg/springjms/TestQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/loginController.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="applicationContext-jms-producer.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_producer/src/main/resources/applicationContext-jms-producer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -111,7 +171,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add</find>
       <find>location</find>
       <find>返回</find>
       <find>findPage</find>
@@ -141,6 +200,7 @@
       <find>addFilterCondition</find>
       <find>updateTime</find>
       <find>sortSearch</find>
+      <find>ActiveMQConnectionFactory</find>
     </findStrings>
     <replaceStrings>
       <replace>new PygResult</replace>
@@ -155,32 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pyg_protal_web/src/main/java/com/pyg/portal/controller/ContentController.java" />
-        <option value="$PROJECT_DIR$/springdataredisDemo/src/main/resources/spring/applicationContext-redis.xml" />
-        <option value="$PROJECT_DIR$/springdataredisDemo/src/main/resources/redis-config.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springdataredisDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/springdataredisDemo/src/test/java/com/pyg/springdataredisTest/SpringDataRedisTest.java" />
-        <option value="$PROJECT_DIR$/pyg_common/pom.xml" />
-        <option value="$PROJECT_DIR$/pyg_content/pyg_content_service/src/main/java/com/pyg/content/service/impl/ContentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pyg_common/src/main/resources/spring/applicationContext-redis.xml" />
-        <option value="$PROJECT_DIR$/pyg_dao/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/pyg_protal_web/src/main/java/com/pyg/portal/controller/ContentController.java" />
-        <option value="$PROJECT_DIR$/pyg_common/src/main/resources/redis-config.properties" />
-        <option value="$PROJECT_DIR$/springdatasolrDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/springdatasolrDemo/src/main/resources/applicationContext-solr.xml" />
-        <option value="$PROJECT_DIR$/springdatasolrDemo/src/main/java/com/springdatasolrdemo/pojo/TbItem.java" />
-        <option value="$PROJECT_DIR$/springdatasolrDemo/src/test/java/com/springdatasolr/test/SpringDataSolrTest.java" />
-        <option value="$PROJECT_DIR$/pyg_solr_util/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/pyg_solr_util/pom.xml" />
-        <option value="$PROJECT_DIR$/springdatasolrDemo/src/main/java/com/springdatasolrdemo/pojo/TbItem.java" />
-        <option value="$PROJECT_DIR$/pyg_solr_util/src/main/java/com/pyg/pojo/TbItem.java" />
-        <option value="$PROJECT_DIR$/pyg_solr_util/src/main/java/com/pyg/solrutil/SolrUtil.java" />
-        <option value="$PROJECT_DIR$/pyg_search/pyg_search_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/pyg_search/pyg_search_interface/src/main/java/com/pyg/search/service/ItemSearchService.java" />
-        <option value="$PROJECT_DIR$/pyg_search/pyg_search_service/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pyg_search/pyg_search_service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/pyg_search/pyg_search_service/pom.xml" />
         <option value="$PROJECT_DIR$/pyg_search_web/pom.xml" />
         <option value="$PROJECT_DIR$/pyg_search_web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/pyg_search_web/src/main/webapp/WEB-INF/web.xml" />
@@ -199,13 +233,39 @@
         <option value="$PROJECT_DIR$/springdatasolrDemo/src/test/java/com/springdatasolr/test/SpringDataSolrTest.java" />
         <option value="$PROJECT_DIR$/pyg_search_web/src/main/webapp/js/controller/searchController.js" />
         <option value="$PROJECT_DIR$/pyg_search/pyg_search_service/src/main/java/com/pyg/search/service/impl/ItemSearchServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_pojo/src/main/java/com/pyg/pojo/TbItem.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_solr_util/src/main/java/com/pyg/pojo/TbItem.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_solr_util/总结" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_solr_util/src/main/java/com/pyg/solrutil/SolrUtil.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/src/main/java/com/pyg/search/service/impl/ItemSearchServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/search.html" />
-        <option value="$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/searchController.js" />
+        <option value="$PROJECT_DIR$/pyg_pojo/src/main/java/com/pyg/pojo/TbItem.java" />
+        <option value="$PROJECT_DIR$/pyg_solr_util/src/main/java/com/pyg/pojo/TbItem.java" />
+        <option value="$PROJECT_DIR$/pyg_solr_util/总结" />
+        <option value="$PROJECT_DIR$/pyg_solr_util/src/main/java/com/pyg/solrutil/SolrUtil.java" />
+        <option value="$PROJECT_DIR$/pyg_search/pyg_search_service/src/main/java/com/pyg/search/service/impl/ItemSearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pyg_search_web/src/main/webapp/search.html" />
+        <option value="$PROJECT_DIR$/pyg_search_web/src/main/webapp/js/controller/searchController.js" />
+        <option value="$PROJECT_DIR$/springbootDemo/src/main/java/cn/itecast/demo/Application.java" />
+        <option value="$PROJECT_DIR$/springbootDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootDemo/src/main/java/cn/itecast/demo/util/PygConfiguration.java" />
+        <option value="$PROJECT_DIR$/springbootDemo/src/main/java/cn/itecast/demo/service/MessageService.java" />
+        <option value="$PROJECT_DIR$/springbootDemo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springbootDemo/总结" />
+        <option value="$PROJECT_DIR$/springbootDemo/src/main/java/cn/itecast/demo/controller/HelloworldController.java" />
+        <option value="$PROJECT_DIR$/activemqDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/activemqDemo/总结" />
+        <option value="$PROJECT_DIR$/activemqDemo/src/test/java/com/xiaojihua/activemq/ActiveMqTestDemo.java" />
+        <option value="$PROJECT_DIR$/activemqDemo/src/test/java/com/xiaojihua/activemq/C02ActiveMqTestDemo.java" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms_producer/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms_producer/src/test/java/com/pyg/springjms/TestQueue.java" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms_producer/src/main/resources/applicationContext-jms-producer.xml" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms_producer/src/main/java/com/pyg/demo/C01QueueConsumer.java" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms_producer/src/main/java/com/pyg/demo/C01QueueProducer.java" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms/springjms_producer/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms/总结" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/src/main/java/com/pyg/demo/MyMessageListener.java" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms/springjms_producer/src/main/resources/applicationContext-jms-producer.xml" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/src/test/java/com/pyg/springjms/TestQueue.java" />
+        <option value="$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/src/main/resources/applicationContext-jms-consumer.xml" />
       </list>
     </option>
   </component>
@@ -232,16 +292,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="pyg_search_interface" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="pyg_search_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -254,7 +305,6 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-25" />
     <option name="y" value="10" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
@@ -266,8 +316,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,115 +328,34 @@
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_service" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_service" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_web" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_search_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -394,78 +363,35 @@
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_solr_util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="solrutil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -473,11 +399,78 @@
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatasolrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springjms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -486,37 +479,43 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="H:/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.33626375" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\pyg_parent\springjms\springjms_consumer\src\main\resources" />
       <recent name="I:\pyg_parent\pyg_search_web\src\main\webapp" />
       <recent name="I:\pyg_parent\pyg_search_web\src\main\resources\spring" />
       <recent name="I:\pyg_parent\pyg_search\pyg_search_service\src\main\resources\spring" />
       <recent name="I:\pyg_parent\pyg_solr_util\src\main\resources\spring" />
-      <recent name="I:\pyg_parent\pyg_common\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xiaojihua.activemq" />
       <recent name="com.pyg.pojo" />
       <recent name="com.springdatasolrdemo.pojo" />
       <recent name="com.pyg.manager.controller" />
       <recent name="com.pyg.shop.controller" />
-      <recent name="com.pyg.utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\pyg_parent\springjms" />
       <recent name="I:\pyg_parent\pyg_solr_util\src\main\resources\spring" />
       <recent name="I:\pyg_parent\pyg_content\pyg_content_service\src\main\resources\spring" />
       <recent name="I:\pyg_parent\pyg_dao\src\main\java\com\pyg\mapper" />
       <recent name="I:\pyg_parent\pyg_dao\src\main\resources\com\pyg\mapper" />
-      <recent name="I:\pyg_parent\pyg_dao\src\main\resources\com.pyg.mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -531,34 +530,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.pygsearchweb">
-    <configuration name="SolrUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pyg.solrutil.SolrUtil" />
-      <module name="pyg_solr_util" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pyg.solrutil.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestQueue.text (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SpringDataSolrTest.testAddList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdatasolrDemo" />
+    <configuration name="C01ActiveMqTestDemo.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jmsactivemqDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springdatasolr.test.*" />
+          <option name="PATTERN" value="com.xiaojihua.activemq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springdatasolr.test" />
-      <option name="MAIN_CLASS_NAME" value="com.springdatasolr.test.SpringDataSolrTest" />
-      <option name="METHOD_NAME" value="testAddList" />
+      <option name="PACKAGE_NAME" value="com.xiaojihua.activemq" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.activemq.C01ActiveMqTestDemo" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -569,19 +557,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SpringDataSolrTest.testDeleteAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdatasolrDemo" />
+    <configuration name="C02ActiveMqTestDemo.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jmsactivemqDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springdatasolr.test.*" />
+          <option name="PATTERN" value="com.xiaojihua.activemq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springdatasolr.test" />
-      <option name="MAIN_CLASS_NAME" value="com.springdatasolr.test.SpringDataSolrTest" />
-      <option name="METHOD_NAME" value="testDeleteAll" />
+      <option name="PACKAGE_NAME" value="com.xiaojihua.activemq" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.activemq.C02ActiveMqTestDemo" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -592,19 +580,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SpringDataSolrTest.testHighLight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdatasolrDemo" />
+    <configuration name="C02ActiveMqTestDemo.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jmsactivemqDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springdatasolr.test.*" />
+          <option name="PATTERN" value="com.xiaojihua.activemq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springdatasolr.test" />
-      <option name="MAIN_CLASS_NAME" value="com.springdatasolr.test.SpringDataSolrTest" />
-      <option name="METHOD_NAME" value="testHighLight" />
+      <option name="PACKAGE_NAME" value="com.xiaojihua.activemq" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.activemq.C02ActiveMqTestDemo" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -615,19 +603,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SpringDataSolrTest.testPageQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdatasolrDemo" />
+    <configuration name="TestQueue.text (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springjms_consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springdatasolr.test.*" />
+          <option name="PATTERN" value="com.pyg.springjms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springdatasolr.test" />
-      <option name="MAIN_CLASS_NAME" value="com.springdatasolr.test.SpringDataSolrTest" />
-      <option name="METHOD_NAME" value="testPageQuery" />
+      <option name="PACKAGE_NAME" value="com.pyg.springjms" />
+      <option name="MAIN_CLASS_NAME" value="com.pyg.springjms.TestQueue" />
+      <option name="METHOD_NAME" value="text" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestQueue.text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springjms_producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pyg.springjms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pyg.springjms" />
+      <option name="MAIN_CLASS_NAME" value="com.pyg.springjms.TestQueue" />
+      <option name="METHOD_NAME" value="text" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1222,19 +1233,19 @@
       <item itemvalue="Tomcat Server.pygmanagerWeb" />
       <item itemvalue="Tomcat Server.pygprotal" />
       <item itemvalue="Tomcat Server.pygshopWeb" />
-      <item itemvalue="Application.SolrUtil" />
-      <item itemvalue="JUnit.SpringDataSolrTest.testAddList" />
-      <item itemvalue="JUnit.SpringDataSolrTest.testPageQuery" />
-      <item itemvalue="JUnit.SpringDataSolrTest.testDeleteAll" />
-      <item itemvalue="JUnit.SpringDataSolrTest.testHighLight" />
+      <item itemvalue="JUnit.C01ActiveMqTestDemo.test01" />
+      <item itemvalue="JUnit.C02ActiveMqTestDemo.test2" />
+      <item itemvalue="JUnit.C02ActiveMqTestDemo.test01" />
+      <item itemvalue="JUnit.TestQueue.text" />
+      <item itemvalue="JUnit.TestQueue.text (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SolrUtil" />
-        <item itemvalue="JUnit.SpringDataSolrTest.testHighLight" />
-        <item itemvalue="JUnit.SpringDataSolrTest.testDeleteAll" />
-        <item itemvalue="JUnit.SpringDataSolrTest.testPageQuery" />
-        <item itemvalue="JUnit.SpringDataSolrTest.testAddList" />
+        <item itemvalue="JUnit.TestQueue.text (1)" />
+        <item itemvalue="JUnit.TestQueue.text" />
+        <item itemvalue="JUnit.C02ActiveMqTestDemo.test2" />
+        <item itemvalue="JUnit.C02ActiveMqTestDemo.test01" />
+        <item itemvalue="JUnit.C01ActiveMqTestDemo.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -1290,44 +1301,47 @@
       <workItem from="1588037531233" duration="11794000" />
       <workItem from="1588130990561" duration="8286000" />
       <workItem from="1588218049327" duration="651000" />
-      <workItem from="1588549661042" duration="3536000" />
+      <workItem from="1588549661042" duration="4186000" />
+      <workItem from="1588745127003" duration="8777000" />
+      <workItem from="1588759745686" duration="8000" />
+      <workItem from="1588759809061" duration="3148000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringDataSolrTest_testHighLight - 2020.04.29 at 12h 02m 20s.xml">
-      <configuration name="SpringDataSolrTest.testHighLight" configurationId="JUnit" />
+    <history-entry file="ActiveMqTestDemo_test01 - 2020.05.06 at 17h 40m 51s.xml">
+      <configuration name="ActiveMqTestDemo.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringDataSolrTest_testHighLight - 2020.04.29 at 12h 03m 23s.xml">
-      <configuration name="SpringDataSolrTest.testHighLight" configurationId="JUnit" />
+    <history-entry file="ActiveMqTestDemo_test2 - 2020.05.06 at 17h 55m 32s.xml">
+      <configuration name="ActiveMqTestDemo.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringDataSolrTest_testHighLight - 2020.04.29 at 12h 05m 02s.xml">
-      <configuration name="SpringDataSolrTest.testHighLight" configurationId="JUnit" />
+    <history-entry file="C02ActiveMqTestDemo_test01 - 2020.05.06 at 18h 01m 36s.xml">
+      <configuration name="C02ActiveMqTestDemo.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringDataSolrTest_testHighLight - 2020.04.29 at 12h 07m 47s.xml">
-      <configuration name="SpringDataSolrTest.testHighLight" configurationId="JUnit" />
+    <history-entry file="C02ActiveMqTestDemo_test2 - 2020.05.06 at 18h 01m 40s.xml">
+      <configuration name="C02ActiveMqTestDemo.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringDataSolrTest_testHighLight - 2020.04.29 at 12h 08m 52s.xml">
-      <configuration name="SpringDataSolrTest.testHighLight" configurationId="JUnit" />
+    <history-entry file="C02ActiveMqTestDemo_test01 - 2020.05.06 at 18h 01m 45s.xml">
+      <configuration name="C02ActiveMqTestDemo.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringDataSolrTest_testHighLight - 2020.04.29 at 12h 09m 27s.xml">
-      <configuration name="SpringDataSolrTest.testHighLight" configurationId="JUnit" />
+    <history-entry file="C02ActiveMqTestDemo_test2 - 2020.05.06 at 18h 01m 53s.xml">
+      <configuration name="C02ActiveMqTestDemo.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringDataSolrTest_testHighLight - 2020.04.29 at 12h 11m 16s.xml">
-      <configuration name="SpringDataSolrTest.testHighLight" configurationId="JUnit" />
+    <history-entry file="TestQueue_text - 2020.05.06 at 18h 31m 17s.xml">
+      <configuration name="TestQueue.text" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringDataSolrTest_testHighLight - 2020.04.29 at 13h 46m 29s.xml">
-      <configuration name="SpringDataSolrTest.testHighLight" configurationId="JUnit" />
+    <history-entry file="TestQueue_text - 2020.05.06 at 18h 31m 52s.xml">
+      <configuration name="TestQueue.text" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringDataSolrTest_testHighLight - 2020.04.29 at 13h 47m 44s.xml">
-      <configuration name="SpringDataSolrTest.testHighLight" configurationId="JUnit" />
+    <history-entry file="TestQueue_text - 2020.05.06 at 18h 35m 18s.xml">
+      <configuration name="TestQueue.text" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringDataSolrTest_testHighLight - 2020.04.29 at 14h 00m 29s.xml">
-      <configuration name="SpringDataSolrTest.testHighLight" configurationId="JUnit" />
+    <history-entry file="TestQueue_text - 2020.05.06 at 18h 41m 12s.xml">
+      <configuration name="TestQueue.text" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240158000" />
+    <option name="totallyTimeSpent" value="252741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1362,19 +1376,20 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32894737" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.67203516" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44509518" />
       <window_info anchor="bottom" id="Spring" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.56661785" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.22922252" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.43923867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.23123324" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" sideWeight="0.501462" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1416,243 +1431,23 @@
           <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springbootDemo/src/main/java/cn/itecast/demo/controller/HelloworldController.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springbootDemo/src/main/java/cn/itecast/demo/service/MessageService.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="49" />
+      <option name="time" value="52" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="13" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_solr_util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="21" selection-start-line="34" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="16" selection-end-line="52" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/java/com/pyg/search/controller/adaf.aj" />
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_protal_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_interface/src/main/java/com/pyg/search/service/ItemSearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_common/src/main/resources/spring/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_content/pyg_content_service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" selection-start-line="25" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_solr_util/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_solr_util/src/main/resources/spring/applicationContext-solr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_content/pyg_content_service/src/main/java/com/pyg/content/service/impl/ContentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_protal_web/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="64" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_dao/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/src/main/resources/spring/applicationContext-solr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_protal_web/src/main/webapp/js/controller/contentController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/springdatasolrDemo/src/main/java/com/springdatasolrdemo/pojo/TbItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="76" column="39" selection-start-line="74" selection-start-column="4" selection-end-line="76" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/1.5.5.RELEASE/spring-data-solr-1.5.5.RELEASE.jar!/org/springframework/data/solr/core/query/Criteria.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="358" column="9" selection-start-line="358" selection-start-column="9" selection-end-line="358" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/1.5.5.RELEASE/spring-data-solr-1.5.5.RELEASE.jar!/org/springframework/data/solr/core/query/Crotch.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/1.5.5.RELEASE/spring-data-solr-1.5.5.RELEASE.jar!/org/springframework/data/solr/core/query/result/HighlightPage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1730,18 +1525,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/contentController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/loginController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service/src/main/java/com/pyg/search/service/impl/ItemSearchServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="3586">
           <caret line="176" column="37" selection-start-line="176" selection-start-column="37" selection-end-line="176" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1751,15 +1537,300 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
+        <state relative-caret-position="6886">
           <caret line="313" column="30" selection-start-line="313" selection-start-column="30" selection-end-line="313" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web/src/main/webapp/js/controller/searchController.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springdataredisDemo/src/test/java/com/pyg/springdataredisTest/SpringDataRedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springSecurityDemo/总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" lean-forward="true" selection-start-column="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springSecurityDemo/src/main/resources/spring/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springSecurityDemo/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springbootDemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/4.3.2.RELEASE/spring-messaging-4.3.2.RELEASE.jar!/org/springframework/messaging/core/AbstractMessageReceivingTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/4.3.2.RELEASE/spring-messaging-4.3.2.RELEASE.jar!/org/springframework/messaging/core/AbstractMessageSendingTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="19" column="75" lean-forward="true" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/4.3.2.RELEASE/spring-messaging-4.3.2.RELEASE.jar!/org/springframework/messaging/core/MessageSendingOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/4.3.2.RELEASE/spring-messaging-4.3.2.RELEASE.jar!/org/springframework/messaging/core/AbstractMessagingTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.0.RELEASE/spring-boot-autoconfigure-1.4.0.RELEASE.jar!/org/springframework/boot/autoconfigure/jms/JmsAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jms/4.3.2.RELEASE/spring-jms-4.3.2.RELEASE.jar!/org/springframework/jms/core/JmsMessagingTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.0.RELEASE/spring-boot-autoconfigure-1.4.0.RELEASE.jar!/org/springframework/boot/autoconfigure/jms/activemq/ActiveMQAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springbootDemo/src/main/java/cn/itecast/demo/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springbootDemo/src/main/java/cn/itecast/demo/util/PygConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springbootDemo/src/main/java/cn/itecast/demo/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springbootDemo/src/main/java/cn/itecast/demo/controller/HelloworldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springbootDemo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springbootDemo/总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/activemqDemo/src/test/java/com/xiaojihua/activemq.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-client/5.13.4/activemq-client-5.13.4.jar!/org/apache/activemq/ActiveMQConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="84" selection-start-line="45" selection-start-column="84" selection-end-line="45" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar!/javax/jms/ConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/activemqDemo/src/test/java/com/xiaojihua/activemq/C01ActiveMqTestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/activemqDemo/src/test/java/com/xiaojihua/activemq/C02ActiveMqTestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/activemqDemo/总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/activemqDemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_producer/src/main/java/com/pyg/demo/C01QueueProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#709#903#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_producer/src/main/java/com/pyg/demo/C01QueueProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#666#870#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_producer/src/test/java/com/pyg/springjms/TestQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_producer/src/main/resources/applicationContext-jms-producer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/src/main/java/com/pyg/demo/MyMessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/src/test/java/com/pyg/springjms/TestQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg_parent/springjms/springjms_consumer/src/main/resources/applicationContext-jms-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
         </state>
       </provider>
     </entry>

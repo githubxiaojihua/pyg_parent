@@ -1,0 +1,13 @@
+springboot的简单实用
+1、springboot的使用
+2、springboot web项目的创建
+3、修改springboot的默认配置，在application.properties中设置内置tomcat端口号
+4、通过Environment来读取application.properties中设置的属性值。
+
+集成activeMq
+1、设置启动以来
+2、在controller中注入JmsMessagingTemplate进行消息发送
+3、在service中通过@JmsListener(destination = "itcast")进行消费
+4、默认是点对点的消费模式，通过在application.properties中设置spring.jms.pub-sub-domain=true可以
+切换为订阅和发布模式
+5、非必要步骤---通过Configuration以及@Bean定义了一个ActiveMqTopic，其实直接用字符串也可以
