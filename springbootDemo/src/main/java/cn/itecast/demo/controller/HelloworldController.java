@@ -8,6 +8,9 @@ import org.springframework.jms.core.JmsTemplate;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @RestController
 public class HelloworldController {
 
@@ -38,6 +41,14 @@ public class HelloworldController {
     @RequestMapping("/ps")
     public void sendMessageByPs(String text){
         jmsMessagingTemplate.convertAndSend("myTopic",text);
+    }
+
+    @RequestMapping("/sendMap")
+    public void sendMap(){
+        Map<String,Object> map = new HashMap<String, Object>();
+        map.put("telephone","18955666666");
+        map.put("content","恭喜你获得500万大奖");
+        jmsMessagingTemplate.convertAndSend("itcast_map",map);
     }
 
 

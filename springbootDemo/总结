@@ -11,3 +11,8 @@ springboot的简单实用
 4、默认是点对点的消费模式，通过在application.properties中设置spring.jms.pub-sub-domain=true可以
 切换为订阅和发布模式
 5、非必要步骤---通过Configuration以及@Bean定义了一个ActiveMqTopic，其实直接用字符串也可以
+
+6、使用外部服务
+#当指定了外部服务就使用外部服务，没制定的话就使用内置的activemq
+spring.activemq.broker-url=tcp://192.168.25.132:61616
+7、向activemq发送map类型的消息，并接收

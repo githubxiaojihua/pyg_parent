@@ -3,6 +3,8 @@ package cn.itecast.demo.service;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
+import java.util.Map;
+
 @Component
 public class MessageService {
 
@@ -17,4 +19,8 @@ public class MessageService {
         System.out.println("接受消息:" + text);
     }
 
+    @JmsListener(destination="itcast_map")
+    public void reciveMap(Map map){
+        System.out.println(map);
+    }
 }

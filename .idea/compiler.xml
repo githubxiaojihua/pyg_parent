@@ -23,6 +23,7 @@
         <module name="pyg_search_web" />
         <module name="pyg_shop_web" />
         <module name="pyg_solr_util" />
+        <module name="pyg_springboot_solr_html" />
         <module name="springbootDemo" />
         <module name="springdataredisDemo" />
         <module name="springdatasolrDemo" />

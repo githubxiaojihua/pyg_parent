@@ -9,6 +9,7 @@ import com.pyg.mapper.*;
 import com.pyg.pojo.*;
 import com.pyg.utils.PygResult;
 import com.pyg.vo.Goods;
+import org.apache.activemq.command.ActiveMQTopic;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.Page;
@@ -17,7 +18,13 @@ import com.pyg.pojo.TbGoodsExample.Criteria;
 import com.pyg.manager.service.GoodsService;
 
 import com.pyg.utils.PageResult;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.transaction.annotation.Transactional;
+
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
 
 /**
  * 服务实现层
@@ -41,6 +48,14 @@ public class GoodsServiceImpl implements GoodsService {
 
 	@Autowired
 	private TbItemMapper itemMapper;
+
+	// 注入消息发送模版
+	@Autowired
+	private JmsTemplate jmsTemplate;
+
+	// 注入消息发送目的地
+	@Autowired
+	private ActiveMQTopic topic;
 	
 	/**
 	 * 查询全部
@@ -271,13 +286,49 @@ public class GoodsServiceImpl implements GoodsService {
 		return new PageResult(page.getTotal(), page.getResult());
 	}
 
+	/**
+	 * 在上下架的時候通過消息進行solr的同步
+	 * @param ids
+	 * @param status
+	 */
 	@Override
 	public void updateStatusByIds(Long[] ids, String status) {
-		for(Long id : ids){
-            TbGoods tbGoods = goodsMapper.selectByPrimaryKey(id);
-            tbGoods.setAuditStatus(status);
-            goodsMapper.updateByPrimaryKeySelective(tbGoods);
-        }
+		// 循环数组ids
+		for (Long id : ids) {
+			// 根据id把商品对象查询处理
+			TbGoods tbGoods = goodsMapper.selectByPrimaryKey(id);
+			// 修改状态
+			tbGoods.setAuditStatus(status);
+
+			// 修改
+			goodsMapper.updateByPrimaryKeySelective(tbGoods);
+			//创建example对象
+			TbItemExample example = new TbItemExample();
+			//创建criteria对象
+			com.pyg.pojo.TbItemExample.Criteria createCriteria = example.createCriteria();
+			//设置参数: 根据goodsid外键
+			createCriteria.andGoodsIdEqualTo(id);
+			//根据商品id查询sku商品
+			final List<TbItem> list = itemMapper.selectByExample(example);
+
+			// 发送消息
+			jmsTemplate.send(topic, new MessageCreator() {
+
+				@Override
+				public Message createMessage(Session session)
+						throws JMSException {
+
+					//把list集合转换成json字符
+					String itemJson = JSON.toJSONString(list);
+
+					// 添加数据
+					return session.createTextMessage("add_update="+itemJson);
+				}
+			});
+
+
+		}
+
 	}
 
 }

@@ -1,0 +1,2 @@
+在GoodsServiceImpl.java的updateStatusByIds方法中向activemq发送了消息。
+然后由pyg_springboot_solr_html项目进行监听和接收并根据消息类型更新solr
