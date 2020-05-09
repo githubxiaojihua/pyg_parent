@@ -56,14 +56,19 @@
 		<property name="targetConnectionFactory" ref="pooledConnectionFactory"></property>
 		<property name="reconnectOnException" value="true" />
 	</bean>
-	<!-- spring jms提供消息发送模版对象 -->
-	<bean class="org.springframework.jms.core.JmsTemplate">
+
+	<!-- 自定义监听器,监听容器自动触发监听器 -->
+	<bean id="solrListener" class="com.pyg.search.listener.SolrListener"></bean>
+
+	<!-- 使用spring jms提供监听容器 -->
+	<bean class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+		<!-- 接受消息服务器地址 -->
 		<property name="connectionFactory" ref="connectionFactory"></property>
-		<property name="pubSubDomain" value="true"></property>
-		<property name="defaultDestination" ref="solrTopic"></property>
+		<!-- 指定接受消息空间地址 -->
+		<property name="destination" ref="solrTopic"></property>
+		<!-- 指定接受消息监听器 -->
+		<property name="messageListener" ref="solrListener"></property>
 	</bean>
-	<!-- 指定消息发送目的地 原来使用springboot的时候配置的-->
-	<!--<bean class="org.apache.activemq.command.ActiveMQTopic">
-		<constructor-arg value="add_update_del_topic"></constructor-arg>
-	</bean>-->
+
+
 </beans>

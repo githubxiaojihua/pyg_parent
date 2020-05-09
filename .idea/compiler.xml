@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fastdfsDemo" />
+        <module name="freemakerDemo" />
         <module name="jmsactivemqDemo" />
         <module name="pyg_common" />
         <module name="pyg_content_interface" />

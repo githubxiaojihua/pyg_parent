@@ -27,6 +27,7 @@
         <module>activemqDemo</module>
         <module>springjms</module>
         <module>pyg_springboot_solr_html</module>
+        <module>freemakerDemo</module>
     </modules>
     <packaging>pom</packaging>
 

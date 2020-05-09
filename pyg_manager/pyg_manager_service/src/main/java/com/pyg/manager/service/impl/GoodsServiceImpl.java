@@ -31,7 +31,7 @@ import javax.jms.Session;
  * @author Administrator
  *
  */
-@Service
+@Service(timeout = 1000000)
 public class GoodsServiceImpl implements GoodsService {
 
 	@Autowired
@@ -288,11 +288,12 @@ public class GoodsServiceImpl implements GoodsService {
 
 	/**
 	 * 在上下架的時候通過消息進行solr的同步
+	 * 使用springboot时的写法
 	 * @param ids
 	 * @param status
 	 */
-	@Override
-	public void updateStatusByIds(Long[] ids, String status) {
+	//@Override
+	/*public void updateStatusByIds(Long[] ids, String status) {
 		// 循环数组ids
 		for (Long id : ids) {
 			// 根据id把商品对象查询处理
@@ -329,6 +330,30 @@ public class GoodsServiceImpl implements GoodsService {
 
 		}
 
+	}*/
+
+	/**
+	 * 在上下架的時候通過消息進行solr的同步
+	 * 使用原生spring集成activemq
+	 * @param ids
+	 * @param status
+	 */
+	@Override
+	public void updateStatusByIds(Long[] ids, String status) {
+
+		// 循环数组ids
+		for (Long id : ids) {
+			// 根据id把商品对象查询处理
+			TbGoods tbGoods = goodsMapper.selectByPrimaryKey(id);
+			// 修改状态
+			tbGoods.setAuditStatus(status);
+
+			// 修改
+			goodsMapper.updateByPrimaryKeySelective(tbGoods);
+
+		}
+		//传递消息 spu id
+		jmsTemplate.convertAndSend(ids);
 	}
 
 }
