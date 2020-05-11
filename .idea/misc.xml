@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_content/pyg_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_service" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_page/pyg_pge_service" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_protal_web" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web" />

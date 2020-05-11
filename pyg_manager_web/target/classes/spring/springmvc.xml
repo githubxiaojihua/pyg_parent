@@ -27,6 +27,9 @@
 	<mvc:default-servlet-handler/>
 
 	<!-- 引用dubbo 服务 -->
+	<!-- 纠正dubbo:application并不是说要引用那个服务，而是标注本项目在dubbo中的名称，理论上应该唯一，但是
+		 现在来看也可以与服务提供这一样
+	-->
 	<dubbo:application name="pyg-manager-service" />
 	<dubbo:registry address="zookeeper://192.168.25.132:2181"/>
 	<dubbo:annotation package="com.pyg.manager.controller" />

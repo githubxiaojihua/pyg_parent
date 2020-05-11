@@ -17,6 +17,8 @@
         <module name="pyg_manager_interface" />
         <module name="pyg_manager_service" />
         <module name="pyg_manager_web" />
+        <module name="pyg_page_interface" />
+        <module name="pyg_pge_service" />
         <module name="pyg_pojo" />
         <module name="pyg_protal_web" />
         <module name="pyg_search_interface" />

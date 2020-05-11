@@ -1,6 +1,7 @@
 package com.pyg.manager.controller;
 import java.util.List;
 
+import com.pyg.page.service.ItemPageService;
 import com.pyg.vo.Goods;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,6 +24,9 @@ public class GoodsController {
 
 	@Reference
 	private GoodsService goodsService;
+
+	@Reference
+	private ItemPageService itemPageService;
 	
 	/**
 	 * 返回全部列表
@@ -125,6 +129,11 @@ public class GoodsController {
 			e.printStackTrace();
 			return new PygResult(false,"更新失败");
 		}
+	}
+
+	@RequestMapping("/genHtml")
+	public void genHtml(Long itemId){
+		itemPageService.getItemHtml(itemId);
 	}
 	
 }

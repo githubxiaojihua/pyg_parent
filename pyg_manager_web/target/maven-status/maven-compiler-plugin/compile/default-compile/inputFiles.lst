@@ -1,10 +1,13 @@
 I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\ItemCatController.java
 I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\SellerController.java
-I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\GoodsDescController.java
+I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\UploadController.java
+I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\ContentCategoryController.java
 I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\BrandController.java
-I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\GoodsController.java
 I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\SpecificationOptionController.java
-I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\TypeTemplateController.java
 I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\ItemController.java
-I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\LoginController.java
 I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\SpecificationController.java
+I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\GoodsDescController.java
+I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\ContentController.java
+I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\GoodsController.java
+I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\TypeTemplateController.java
+I:\pyg_parent\pyg_manager_web\src\main\java\com\pyg\manager\controller\LoginController.java

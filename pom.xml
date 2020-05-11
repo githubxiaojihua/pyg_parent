@@ -28,6 +28,7 @@
         <module>springjms</module>
         <module>pyg_springboot_solr_html</module>
         <module>freemakerDemo</module>
+        <module>pyg_page</module>
     </modules>
     <packaging>pom</packaging>
 

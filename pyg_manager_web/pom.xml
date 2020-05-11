@@ -88,6 +88,13 @@
             <artifactId>spring-security-config</artifactId>
             <version>4.1.0.RELEASE</version>
         </dependency>
+
+        <!-- 引入生成静态页服务-->
+        <dependency>
+            <groupId>com.pyg</groupId>
+            <artifactId>pyg_page_interface</artifactId>
+            <version>${project.version}</version>
+        </dependency>
    </dependencies>
     <build>
         <plugins>
