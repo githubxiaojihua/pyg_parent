@@ -29,6 +29,7 @@
         <module>pyg_springboot_solr_html</module>
         <module>freemakerDemo</module>
         <module>pyg_page</module>
+        <module>pyg_html_utils</module>
     </modules>
     <packaging>pom</packaging>
 

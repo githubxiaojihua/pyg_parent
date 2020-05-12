@@ -124,6 +124,11 @@ public class GoodsController {
 	public PygResult updateByIds(Long[] ids,String status){
 		try{
 			goodsService.updateStatusByIds(ids,status);
+			//静态页生成
+
+			for(Long goodsId:ids){
+				itemPageService.getItemHtml(goodsId);
+			}
 			return new PygResult(true,"更新成功");
 		}catch(Exception e){
 			e.printStackTrace();

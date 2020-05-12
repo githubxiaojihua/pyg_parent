@@ -1,1 +1,4 @@
 使用sprignboot构建微服务来同步solr索引库以及静态化页面
+
+但是后来由于在视频中说springboot集成activemq与spring集成activemq的应用对接不是很好，就按照教程中的
+使用传统spring集成activemq来同步索引库了
