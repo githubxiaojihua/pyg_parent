@@ -30,6 +30,9 @@
         <module>freemakerDemo</module>
         <module>pyg_page</module>
         <module>pyg_html_utils</module>
+        <module>pyg_springboot_sms</module>
+        <module>pyg_user</module>
+        <module>pyg_user_web</module>
     </modules>
     <packaging>pom</packaging>
 

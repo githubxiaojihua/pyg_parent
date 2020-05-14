@@ -9,7 +9,10 @@
     <file url="file://$PROJECT_DIR$/../pyg_parent/pyg_search/pyg_search_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../pyg_parent/pyg_search_web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../pyg_parent/pyg_shop_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../pyg_parent/pyg_springboot_sms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../pyg_parent/pyg_springboot_solr_html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../pyg_parent/pyg_user/pyg_user_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../pyg_parent/pyg_user_web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../pyg_parent/springSecurityDemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../pyg_parent/springbootDemo" charset="UTF-8" />
   </component>
