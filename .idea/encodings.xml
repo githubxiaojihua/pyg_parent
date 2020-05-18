@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../pyg_parent/casclient_demo1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../pyg_parent/casclient_demo2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../pyg_parent/pyg_content/pyg_content_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../pyg_parent/pyg_manager/pyg_manager_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../pyg_parent/pyg_manager_web" charset="UTF-8" />

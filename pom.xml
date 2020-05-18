@@ -33,6 +33,8 @@
         <module>pyg_springboot_sms</module>
         <module>pyg_user</module>
         <module>pyg_user_web</module>
+        <module>casclient_demo1</module>
+        <module>casclient_demo2</module>
     </modules>
     <packaging>pom</packaging>
 
