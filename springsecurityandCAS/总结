@@ -1,0 +1,5 @@
+springsecurity集成cas
+登陆http://localhost:8095/springsecurityCas/findLoginUser
+跳转到cas登陆页面，认证成功后在控制台打印登陆的用户名
+
+index.html设置了无权限登陆，并在里面设置了单点退出

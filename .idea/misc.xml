@@ -14,6 +14,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_shop_web" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_user/pyg_user_service" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/pyg_user_web" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/springsecurityandCAS" />
     <file type="web" url="file://$PROJECT_DIR$/../pyg_parent/springSecurityDemo" />
   </component>
   <component name="MavenProjectsManager">

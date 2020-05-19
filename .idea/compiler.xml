@@ -39,6 +39,7 @@
         <module name="springdatasolrDemo" />
         <module name="springjms_consumer" />
         <module name="springjms_producer" />
+        <module name="springsecurityandCAS" />
         <module name="springSecurityDemo" />
       </profile>
     </annotationProcessing>

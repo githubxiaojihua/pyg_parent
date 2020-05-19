@@ -16,7 +16,7 @@
 
     <groupId>com.pyg</groupId>
     <artifactId>pyg_springboot_sms</artifactId>
-    <version>${project.version}</version>
+    <version>1.0</version>
 
     <dependencies>
         <dependency>

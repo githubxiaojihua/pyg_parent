@@ -35,6 +35,7 @@
         <module>pyg_user_web</module>
         <module>casclient_demo1</module>
         <module>casclient_demo2</module>
+        <module>springsecurityandCAS</module>
     </modules>
     <packaging>pom</packaging>
 
