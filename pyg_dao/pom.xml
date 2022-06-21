@@ -14,7 +14,7 @@
     <properties>
         <!--  依赖版本  -->
         <mapper.version>3.3.9</mapper.version>
-        <mysql.version>5.1.10</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
     </properties>
 
     <!-- dao持久层:访问数据库 1,mybatis,2,数据源 3,mysql驱动 ,4,依赖pojo -->
